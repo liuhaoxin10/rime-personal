@@ -1,0 +1,27 @@
+# Only publish Rime source files from this live input-method directory.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/*.schema.yaml
+!/*.dict.yaml
+!/default.yaml
+!/default.custom.yaml
+!/rime_ice.custom.yaml
+!/symbols_v.yaml
+!/symbols_caps_v.yaml
+!/custom_phrase.txt
+!/cn_dicts/
+!/en_dicts/
+!/lua/
+!/opencc/
+!/tools/
+
+# Keep learned vocabulary, local state, generated files, and secrets private.
+*.userdb*
+*.log
+*.bin
+.DS_Store
+.env*
+__pycache__/
+*.pyc

@@ -1,0 +1,103 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 计算机、软件工程、系统、网络与数据库常用词
+---
+name: programming_cs
+version: "2026-05-02"
+sort: by_weight
+...
+
+计算机	ji suan ji	800000
+计算机科学	ji suan ji ke xue	780000
+操作系统	cao zuo xi tong	760000
+软件工程	ruan jian gong cheng	740000
+数据库	shu ju ku	780000
+关系数据库	guan xi shu ju ku	700000
+非关系数据库	fei guan xi shu ju ku	680000
+数据库索引	shu ju ku suo yin	680000
+数据库事务	shu ju ku shi wu	680000
+主键	zhu jian	650000
+外键	wai jian	650000
+范式	fan shi	620000
+查询优化	cha xun you hua	650000
+数据仓库	shu ju cang ku	660000
+数据湖	shu ju hu	640000
+缓存	huan cun	700000
+分布式	fen bu shi	720000
+分布式系统	fen bu shi xi tong	720000
+微服务	wei fu wu	680000
+服务治理	fu wu zhi li	640000
+负载均衡	fu zai jun heng	680000
+消息队列	xiao xi dui lie	680000
+发布订阅	fa bu ding yue	640000
+高并发	gao bing fa	680000
+高可用	gao ke yong	680000
+容错	rong cuo	640000
+降级	jiang ji	620000
+限流	xian liu	640000
+熔断	rong duan	640000
+一致性	yi zhi xing	660000
+最终一致性	zui zhong yi zhi xing	650000
+强一致性	qiang yi zhi xing	650000
+并发控制	bing fa kong zhi	660000
+死锁	si suo	650000
+线程	xian cheng	680000
+进程	jin cheng	680000
+协程	xie cheng	660000
+多线程	duo xian cheng	660000
+异步	yi bu	660000
+同步	tong bu	660000
+阻塞	zu se	640000
+非阻塞	fei zu se	640000
+互斥	hu chi	620000
+原子性	yuan zi xing	640000
+可见性	ke jian xing	620000
+内存模型	nei cun mo xing	640000
+编译器	bian yi qi	680000
+解释器	jie shi qi	660000
+源代码	yuan dai ma	680000
+目标代码	mu biao dai ma	640000
+字节码	zi jie ma	640000
+虚拟机	xu ni ji	660000
+运行时	yun xing shi	660000
+调试	tiao shi	660000
+断点	duan dian	640000
+日志	ri zhi	660000
+接口	jie kou	680000
+协议	xie yi	680000
+网络协议	wang luo xie yi	660000
+传输层	chuan shu ceng	640000
+应用层	ying yong ceng	640000
+超文本	chao wen ben	620000
+域名	yu ming	660000
+端口	duan kou	660000
+套接字	tao jie zi	640000
+路由器	lu you qi	650000
+网关	wang guan	650000
+代理服务器	dai li fu wu qi	640000
+反向代理	fan xiang dai li	660000
+防火墙	fang huo qiang	660000
+加密	jia mi	660000
+解密	jie mi	650000
+密钥	mi yao	660000
+公钥	gong yao	650000
+私钥	si yao	650000
+证书	zheng shu	640000
+数字签名	shu zi qian ming	640000
+摘要	zhai yao	620000
+权限	quan xian	660000
+认证	ren zheng	660000
+授权	shou quan	660000
+容器	rong qi	660000
+镜像	jing xiang	650000
+持续集成	chi xu ji cheng	660000
+持续交付	chi xu jiao fu	640000
+自动化测试	zi dong hua ce shi	650000
+单元测试	dan yuan ce shi	660000
+集成测试	ji cheng ce shi	650000
+回归测试	hui gui ce shi	640000
+版本控制	ban ben kong zhi	660000
+代码审查	dai ma shen cha	650000
+需求分析	xu qiu fen xi	650000
+架构设计	jia gou she ji	660000

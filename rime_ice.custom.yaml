@@ -1,0 +1,11 @@
+# Rime schema custom settings
+# encoding: utf-8
+#
+# 雾凇拼音个人配置。这里把主翻译器切到自定义组合词典，
+# 组合词典再导入原始 rime_ice 和个人专题词库。
+
+patch:
+  translator/dictionary: custom_rime_ice
+  pin_cand_filter/@next: "gong shi\t公式"
+  # 仅纠正常见误输入 dain -> dian，避免影响其他 ian/ain 音节。
+  speller/algebra/@next: "derive/^dian$/dain/"
