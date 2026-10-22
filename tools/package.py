@@ -18,6 +18,7 @@ ROOT_FILES = {
     "t9.custom.yaml",
     "symbols_v.yaml",
     "symbols_caps_v.yaml",
+    "VOCABULARY_SOURCES.txt",
 }
 SOURCE_DIRS = {"cn_dicts", "en_dicts", "lua", "opencc"}
 SOURCE_SUFFIXES = {".yaml", ".txt", ".lua", ".json"}

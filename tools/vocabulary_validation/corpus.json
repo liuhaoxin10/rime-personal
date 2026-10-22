@@ -1,0 +1,663 @@
+{
+  "description": "Authored everyday phone input holdout; 60 fresh everyday cases,10 technical cases,3 previously reported user cases. Expected labels fixed before baseline evaluation. This is a local observational regression suite, not a population accuracy benchmark.",
+  "cases": [
+    {
+      "id": "chat_01",
+      "group": "everyday",
+      "category": "chat",
+      "pinyin": "ni chi fan le ma",
+      "expected": [
+        "你吃饭了吗"
+      ]
+    },
+    {
+      "id": "chat_02",
+      "group": "everyday",
+      "category": "chat",
+      "pinyin": "wo gang mang wan",
+      "expected": [
+        "我刚忙完"
+      ]
+    },
+    {
+      "id": "chat_03",
+      "group": "everyday",
+      "category": "chat",
+      "pinyin": "deng yi xia zai shuo",
+      "expected": [
+        "等一下再说"
+      ]
+    },
+    {
+      "id": "chat_04",
+      "group": "everyday",
+      "category": "chat",
+      "pinyin": "wo ma shang hui lai",
+      "expected": [
+        "我马上回来"
+      ]
+    },
+    {
+      "id": "chat_05",
+      "group": "everyday",
+      "category": "chat",
+      "pinyin": "wo yi jing dao le",
+      "expected": [
+        "我已经到了"
+      ]
+    },
+    {
+      "id": "chat_06",
+      "group": "everyday",
+      "category": "chat",
+      "pinyin": "ni xian xiu xi ba",
+      "expected": [
+        "你先休息吧"
+      ]
+    },
+    {
+      "id": "plans_07",
+      "group": "everyday",
+      "category": "plans",
+      "pinyin": "ming tian yi qi qu ba",
+      "expected": [
+        "明天一起去吧"
+      ]
+    },
+    {
+      "id": "plans_08",
+      "group": "everyday",
+      "category": "plans",
+      "pinyin": "wo men ji dian chu fa",
+      "expected": [
+        "我们几点出发"
+      ]
+    },
+    {
+      "id": "plans_09",
+      "group": "everyday",
+      "category": "plans",
+      "pinyin": "xia wu you shi jian ma",
+      "expected": [
+        "下午有时间吗"
+      ]
+    },
+    {
+      "id": "plans_10",
+      "group": "everyday",
+      "category": "plans",
+      "pinyin": "zhou mo you shen me an pai",
+      "expected": [
+        "周末有什么安排"
+      ]
+    },
+    {
+      "id": "plans_11",
+      "group": "everyday",
+      "category": "plans",
+      "pinyin": "wo ke neng wan yi dian",
+      "expected": [
+        "我可能晚一点"
+      ]
+    },
+    {
+      "id": "plans_12",
+      "group": "everyday",
+      "category": "plans",
+      "pinyin": "dao shi hou lian xi ni",
+      "expected": [
+        "到时候联系你"
+      ]
+    },
+    {
+      "id": "campus_13",
+      "group": "everyday",
+      "category": "campus",
+      "pinyin": "jin tian you ke ma",
+      "expected": [
+        "今天有课吗"
+      ]
+    },
+    {
+      "id": "campus_14",
+      "group": "everyday",
+      "category": "campus",
+      "pinyin": "zuo ye hai mei xie wan",
+      "expected": [
+        "作业还没写完"
+      ]
+    },
+    {
+      "id": "campus_15",
+      "group": "everyday",
+      "category": "campus",
+      "pinyin": "tu shu guan ji dian guan men",
+      "expected": [
+        "图书馆几点关门"
+      ]
+    },
+    {
+      "id": "campus_16",
+      "group": "everyday",
+      "category": "campus",
+      "pinyin": "zhe ge wen ti zen me zuo",
+      "expected": [
+        "这个问题怎么做"
+      ]
+    },
+    {
+      "id": "campus_17",
+      "group": "everyday",
+      "category": "campus",
+      "pinyin": "wo zai jiao shi deng ni",
+      "expected": [
+        "我在教室等你"
+      ]
+    },
+    {
+      "id": "campus_18",
+      "group": "everyday",
+      "category": "campus",
+      "pinyin": "ming tian kao shi jia you",
+      "expected": [
+        "明天考试加油"
+      ]
+    },
+    {
+      "id": "shopping_19",
+      "group": "everyday",
+      "category": "shopping",
+      "pinyin": "zhe ge hai you huo ma",
+      "expected": [
+        "这个还有货吗"
+      ]
+    },
+    {
+      "id": "shopping_20",
+      "group": "everyday",
+      "category": "shopping",
+      "pinyin": "ke yi pian yi yi dian ma",
+      "expected": [
+        "可以便宜一点吗"
+      ]
+    },
+    {
+      "id": "shopping_21",
+      "group": "everyday",
+      "category": "shopping",
+      "pinyin": "wo xiang huan yi ge yan se",
+      "expected": [
+        "我想换一个颜色"
+      ]
+    },
+    {
+      "id": "shopping_22",
+      "group": "everyday",
+      "category": "shopping",
+      "pinyin": "shen me shi hou neng fa huo",
+      "expected": [
+        "什么时候能发货"
+      ]
+    },
+    {
+      "id": "shopping_23",
+      "group": "everyday",
+      "category": "shopping",
+      "pinyin": "ma fan bang wo tui kuan",
+      "expected": [
+        "麻烦帮我退款"
+      ]
+    },
+    {
+      "id": "shopping_24",
+      "group": "everyday",
+      "category": "shopping",
+      "pinyin": "zhe ge chi cun tai da le",
+      "expected": [
+        "这个尺寸太大了"
+      ]
+    },
+    {
+      "id": "questions_25",
+      "group": "everyday",
+      "category": "questions",
+      "pinyin": "ni jue de zen me yang",
+      "expected": [
+        "你觉得怎么样"
+      ]
+    },
+    {
+      "id": "questions_26",
+      "group": "everyday",
+      "category": "questions",
+      "pinyin": "zhe shi zen me hui shi",
+      "expected": [
+        "这是怎么回事"
+      ]
+    },
+    {
+      "id": "questions_27",
+      "group": "everyday",
+      "category": "questions",
+      "pinyin": "ni neng ting dao ma",
+      "expected": [
+        "你能听到吗"
+      ]
+    },
+    {
+      "id": "questions_28",
+      "group": "everyday",
+      "category": "questions",
+      "pinyin": "wo ying gai qu na li",
+      "expected": [
+        "我应该去哪里"
+      ]
+    },
+    {
+      "id": "questions_29",
+      "group": "everyday",
+      "category": "questions",
+      "pinyin": "hai you bie de ban fa ma",
+      "expected": [
+        "还有别的办法吗"
+      ]
+    },
+    {
+      "id": "questions_30",
+      "group": "everyday",
+      "category": "questions",
+      "pinyin": "wei shen me zhe me man",
+      "expected": [
+        "为什么这么慢"
+      ]
+    },
+    {
+      "id": "negation_31",
+      "group": "everyday",
+      "category": "negation",
+      "pinyin": "wo jin tian bu qu le",
+      "expected": [
+        "我今天不去了"
+      ]
+    },
+    {
+      "id": "negation_32",
+      "group": "everyday",
+      "category": "negation",
+      "pinyin": "zhe ge bu shi wo de",
+      "expected": [
+        "这个不是我的"
+      ]
+    },
+    {
+      "id": "negation_33",
+      "group": "everyday",
+      "category": "negation",
+      "pinyin": "wo hai mei you shou dao",
+      "expected": [
+        "我还没有收到"
+      ]
+    },
+    {
+      "id": "negation_34",
+      "group": "everyday",
+      "category": "negation",
+      "pinyin": "xian bu yao gao su bie ren",
+      "expected": [
+        "先不要告诉别人"
+      ]
+    },
+    {
+      "id": "negation_35",
+      "group": "everyday",
+      "category": "negation",
+      "pinyin": "xian zai bu yong zhao ji",
+      "expected": [
+        "现在不用着急"
+      ]
+    },
+    {
+      "id": "negation_36",
+      "group": "everyday",
+      "category": "negation",
+      "pinyin": "wo mei ting qing chu",
+      "expected": [
+        "我没听清楚"
+      ]
+    },
+    {
+      "id": "money_time_37",
+      "group": "everyday",
+      "category": "money_time",
+      "pinyin": "yi gong duo shao qian",
+      "expected": [
+        "一共多少钱"
+      ]
+    },
+    {
+      "id": "money_time_38",
+      "group": "everyday",
+      "category": "money_time",
+      "pinyin": "wo yi jing zhuan zhang le",
+      "expected": [
+        "我已经转账了",
+        "我已经转帐了"
+      ]
+    },
+    {
+      "id": "money_time_39",
+      "group": "everyday",
+      "category": "money_time",
+      "pinyin": "wan shang ba dian jian",
+      "expected": [
+        "晚上八点见"
+      ]
+    },
+    {
+      "id": "money_time_40",
+      "group": "everyday",
+      "category": "money_time",
+      "pinyin": "hai you shi fen zhong",
+      "expected": [
+        "还有十分钟"
+      ]
+    },
+    {
+      "id": "money_time_41",
+      "group": "everyday",
+      "category": "money_time",
+      "pinyin": "zhe ge jia ge ke yi",
+      "expected": [
+        "这个价格可以"
+      ]
+    },
+    {
+      "id": "money_time_42",
+      "group": "everyday",
+      "category": "money_time",
+      "pinyin": "jin tian lai de ji ma",
+      "expected": [
+        "今天来得及吗"
+      ]
+    },
+    {
+      "id": "food_43",
+      "group": "everyday",
+      "category": "food",
+      "pinyin": "wan shang chi shen me",
+      "expected": [
+        "晚上吃什么"
+      ]
+    },
+    {
+      "id": "food_44",
+      "group": "everyday",
+      "category": "food",
+      "pinyin": "gei wo yi bei re shui",
+      "expected": [
+        "给我一杯热水"
+      ]
+    },
+    {
+      "id": "food_45",
+      "group": "everyday",
+      "category": "food",
+      "pinyin": "bu yao fang la jiao",
+      "expected": [
+        "不要放辣椒"
+      ]
+    },
+    {
+      "id": "food_46",
+      "group": "everyday",
+      "category": "food",
+      "pinyin": "zhe jia dian ting hao chi",
+      "expected": [
+        "这家店挺好吃"
+      ]
+    },
+    {
+      "id": "food_47",
+      "group": "everyday",
+      "category": "food",
+      "pinyin": "wo xiang dian ge wai mai",
+      "expected": [
+        "我想点个外卖"
+      ]
+    },
+    {
+      "id": "food_48",
+      "group": "everyday",
+      "category": "food",
+      "pinyin": "wo men chu qu chi ba",
+      "expected": [
+        "我们出去吃吧"
+      ]
+    },
+    {
+      "id": "logistics_49",
+      "group": "everyday",
+      "category": "logistics",
+      "pinyin": "wo zai lou xia deng ni",
+      "expected": [
+        "我在楼下等你"
+      ]
+    },
+    {
+      "id": "logistics_50",
+      "group": "everyday",
+      "category": "logistics",
+      "pinyin": "di zhi fa gei wo yi xia",
+      "expected": [
+        "地址发给我一下"
+      ]
+    },
+    {
+      "id": "logistics_51",
+      "group": "everyday",
+      "category": "logistics",
+      "pinyin": "di tie hai you ji zhan",
+      "expected": [
+        "地铁还有几站"
+      ]
+    },
+    {
+      "id": "logistics_52",
+      "group": "everyday",
+      "category": "logistics",
+      "pinyin": "ni dao jia gao su wo",
+      "expected": [
+        "你到家告诉我"
+      ]
+    },
+    {
+      "id": "logistics_53",
+      "group": "everyday",
+      "category": "logistics",
+      "pinyin": "lu shang zhu yi an quan",
+      "expected": [
+        "路上注意安全"
+      ]
+    },
+    {
+      "id": "logistics_54",
+      "group": "everyday",
+      "category": "logistics",
+      "pinyin": "wo zhao bu dao ru kou",
+      "expected": [
+        "我找不到入口"
+      ]
+    },
+    {
+      "id": "social_55",
+      "group": "everyday",
+      "category": "social",
+      "pinyin": "xin ku ni le",
+      "expected": [
+        "辛苦你了"
+      ]
+    },
+    {
+      "id": "social_56",
+      "group": "everyday",
+      "category": "social",
+      "pinyin": "zhe jian shi jiao gei wo",
+      "expected": [
+        "这件事交给我"
+      ]
+    },
+    {
+      "id": "social_57",
+      "group": "everyday",
+      "category": "social",
+      "pinyin": "fang bian de shi hou hui fu wo",
+      "expected": [
+        "方便的时候回复我"
+      ]
+    },
+    {
+      "id": "social_58",
+      "group": "everyday",
+      "category": "social",
+      "pinyin": "sheng ri kuai le",
+      "expected": [
+        "生日快乐"
+      ]
+    },
+    {
+      "id": "social_59",
+      "group": "everyday",
+      "category": "social",
+      "pinyin": "zhu ni yi qie shun li",
+      "expected": [
+        "祝你一切顺利"
+      ]
+    },
+    {
+      "id": "social_60",
+      "group": "everyday",
+      "category": "social",
+      "pinyin": "xia ci you ji hui zai liao",
+      "expected": [
+        "下次有机会再聊"
+      ]
+    },
+    {
+      "id": "tech_61",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "shu ju ku shi wu",
+      "expected": [
+        "数据库事务"
+      ]
+    },
+    {
+      "id": "tech_62",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "shi jian fu za du",
+      "expected": [
+        "时间复杂度"
+      ]
+    },
+    {
+      "id": "tech_63",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "xiang liang shu ju ku",
+      "expected": [
+        "向量数据库"
+      ]
+    },
+    {
+      "id": "tech_64",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "ti du xia jiang",
+      "expected": [
+        "梯度下降"
+      ]
+    },
+    {
+      "id": "tech_65",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "duo tou zhu yi li",
+      "expected": [
+        "多头注意力"
+      ]
+    },
+    {
+      "id": "tech_66",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "xian xing dai shu",
+      "expected": [
+        "线性代数"
+      ]
+    },
+    {
+      "id": "tech_67",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "er cha sou suo shu",
+      "expected": [
+        "二叉搜索树"
+      ]
+    },
+    {
+      "id": "tech_68",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "fu zai jun heng",
+      "expected": [
+        "负载均衡"
+      ]
+    },
+    {
+      "id": "tech_69",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "fu li ye bian huan",
+      "expected": [
+        "傅里叶变换"
+      ]
+    },
+    {
+      "id": "tech_70",
+      "group": "tech",
+      "category": "tech",
+      "pinyin": "dong tai gui hua",
+      "expected": [
+        "动态规划"
+      ]
+    },
+    {
+      "id": "prior_user_71",
+      "group": "prior_user",
+      "category": "prior_user",
+      "pinyin": "ha ha ha",
+      "expected": [
+        "哈哈哈"
+      ]
+    },
+    {
+      "id": "prior_user_72",
+      "group": "prior_user",
+      "category": "prior_user",
+      "pinyin": "ni zai gan shen me",
+      "expected": [
+        "你在干什么"
+      ]
+    },
+    {
+      "id": "prior_user_73",
+      "group": "prior_user",
+      "category": "prior_user",
+      "pinyin": "zhe hen gui le",
+      "expected": [
+        "这很贵了"
+      ]
+    }
+  ]
+}

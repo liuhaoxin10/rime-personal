@@ -1,11 +1,11 @@
-# Hare 的 rime_ice.dict.yaml，部署时覆盖下载来的同名文件。
-# 与上游的差别只在注释：腾讯词库的挂载评测记录见下方 import_tables。
+# 基于紫毫公开的 rime_ice.dict.yaml，保持手机方案接口。
+# 当前挂载最新雾凇中文词表及个人词表；词库版本来源见 VOCABULARY_SOURCES.txt。
 # Rime dictionary
 # encoding: utf-8
 
 ---
 name: rime_ice
-version: "2026-01-26"
+version: "2026-10-22.mobile.3"
 import_tables:
   - cn_dicts/8105     # 字表
   # - cn_dicts/41448  # 大字表（按需启用）（启用时和 8105 同时启用并放在 8105 下面）
@@ -20,7 +20,7 @@ import_tables:
   #   同时调回 RimeDataDeployer 的 bundledDataRevision 与 LibrimeEngine 的 deploymentRevision。
   - cn_dicts/others   # 一些杂项
 
-  # 个人专题词库附加在原生词库之后，保留原生重复词条的优先级。
+  # 个人专题词库附加在基础词库之后，共同参与候选排序。
   - cn_dicts/programming_cs
   - cn_dicts/data_structures
   - cn_dicts/ai_ml

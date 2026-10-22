@@ -1,0 +1,4132 @@
+{
+  "date": "2026-10-22",
+  "corpus_sha256": "2edf6a92b6dd74aa917d438d72caf858a174f9a64f49be1f8cb8dba27817df08",
+  "method": "Local fixed-input Rime T9 comparison; exact intended-phrase matching, not phone-wide accuracy. No user learning data.",
+  "candidates": {
+    "current": {
+      "summary": {
+        "everyday": {
+          "total": 60,
+          "top1": 42,
+          "top7": 42
+        },
+        "tech": {
+          "total": 10,
+          "top1": 10,
+          "top7": 10
+        },
+        "prior_user": {
+          "total": 3,
+          "top1": 2,
+          "top7": 2
+        }
+      },
+      "results": [
+        {
+          "id": "chat_01",
+          "group": "everyday",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "top1_match": true
+        },
+        {
+          "id": "chat_02",
+          "group": "everyday",
+          "pinyin": "wo gang mang wan",
+          "expected": [
+            "我刚忙完"
+          ],
+          "input": "9642646264926",
+          "first": "我刚忙完",
+          "top1_match": true
+        },
+        {
+          "id": "chat_03",
+          "group": "everyday",
+          "pinyin": "deng yi xia zai shuo",
+          "expected": [
+            "等一下再说"
+          ],
+          "input": "3364949429247486",
+          "first": "等一下再说",
+          "top1_match": true
+        },
+        {
+          "id": "chat_04",
+          "group": "everyday",
+          "pinyin": "wo ma shang hui lai",
+          "expected": [
+            "我马上回来"
+          ],
+          "input": "966274264484524",
+          "first": "我马上回来",
+          "top1_match": true
+        },
+        {
+          "id": "chat_05",
+          "group": "everyday",
+          "pinyin": "wo yi jing dao le",
+          "expected": [
+            "我已经到了"
+          ],
+          "input": "9694546432653",
+          "first": "我已经到了",
+          "top1_match": true
+        },
+        {
+          "id": "chat_06",
+          "group": "everyday",
+          "pinyin": "ni xian xiu xi ba",
+          "expected": [
+            "你先休息吧"
+          ],
+          "input": "6494269489422",
+          "first": "你先休息吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_07",
+          "group": "everyday",
+          "pinyin": "ming tian yi qi qu ba",
+          "expected": [
+            "明天一起去吧"
+          ],
+          "input": "6464842694747822",
+          "first": "明天一起去吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_08",
+          "group": "everyday",
+          "pinyin": "wo men ji dian chu fa",
+          "expected": [
+            "我们几点出发"
+          ],
+          "input": "9663654342624832",
+          "first": "我们几点出发",
+          "top1_match": true
+        },
+        {
+          "id": "plans_09",
+          "group": "everyday",
+          "pinyin": "xia wu you shi jian ma",
+          "expected": [
+            "下午有时间吗"
+          ],
+          "input": "94298968744542662",
+          "first": "下午有时间吗",
+          "top1_match": true
+        },
+        {
+          "id": "plans_10",
+          "group": "everyday",
+          "pinyin": "zhou mo you shen me an pai",
+          "expected": [
+            "周末有什么安排"
+          ],
+          "input": "94686696874366326724",
+          "first": "周末有什么安排",
+          "top1_match": true
+        },
+        {
+          "id": "plans_11",
+          "group": "everyday",
+          "pinyin": "wo ke neng wan yi dian",
+          "expected": [
+            "我可能晚一点"
+          ],
+          "input": "96536364926943426",
+          "first": "我可能早一点",
+          "top1_match": false
+        },
+        {
+          "id": "plans_12",
+          "group": "everyday",
+          "pinyin": "dao shi hou lian xi ni",
+          "expected": [
+            "到时候联系你"
+          ],
+          "input": "32674446854269464",
+          "first": "到时候践行",
+          "top1_match": false
+        },
+        {
+          "id": "campus_13",
+          "group": "everyday",
+          "pinyin": "jin tian you ke ma",
+          "expected": [
+            "今天有课吗"
+          ],
+          "input": "54684269685362",
+          "first": "今天走了吗",
+          "top1_match": false
+        },
+        {
+          "id": "campus_14",
+          "group": "everyday",
+          "pinyin": "zuo ye hai mei xie wan",
+          "expected": [
+            "作业还没写完"
+          ],
+          "input": "98693424634943926",
+          "first": "作业还没写完",
+          "top1_match": true
+        },
+        {
+          "id": "campus_15",
+          "group": "everyday",
+          "pinyin": "tu shu guan ji dian guan men",
+          "expected": [
+            "图书馆几点关门"
+          ],
+          "input": "8874848265434264826636",
+          "first": "图书管理店关门",
+          "top1_match": false
+        },
+        {
+          "id": "campus_16",
+          "group": "everyday",
+          "pinyin": "zhe ge wen ti zen me zuo",
+          "expected": [
+            "这个问题怎么做"
+          ],
+          "input": "943439368493663986",
+          "first": "这个问题怎么做",
+          "top1_match": true
+        },
+        {
+          "id": "campus_17",
+          "group": "everyday",
+          "pinyin": "wo zai jiao shi deng ni",
+          "expected": [
+            "我在教室等你"
+          ],
+          "input": "969245426744336464",
+          "first": "我在坚实的明",
+          "top1_match": false
+        },
+        {
+          "id": "campus_18",
+          "group": "everyday",
+          "pinyin": "ming tian kao shi jia you",
+          "expected": [
+            "明天考试加油"
+          ],
+          "input": "64648426526744542968",
+          "first": "明天考试加油",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_19",
+          "group": "everyday",
+          "pinyin": "zhe ge hai you huo ma",
+          "expected": [
+            "这个还有货吗"
+          ],
+          "input": "9434342496848662",
+          "first": "这个还有过吗",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_20",
+          "group": "everyday",
+          "pinyin": "ke yi pian yi yi dian ma",
+          "expected": [
+            "可以便宜一点吗"
+          ],
+          "input": "539474269494342662",
+          "first": "可以便宜这好吗",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_21",
+          "group": "everyday",
+          "pinyin": "wo xiang huan yi ge yan se",
+          "expected": [
+            "我想换一个颜色"
+          ],
+          "input": "96942644826944392673",
+          "first": "我想换一个颜色",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_22",
+          "group": "everyday",
+          "pinyin": "shen me shi hou neng fa huo",
+          "expected": [
+            "什么时候能发货"
+          ],
+          "input": "743663744468636432486",
+          "first": "什么时候能打过",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_23",
+          "group": "everyday",
+          "pinyin": "ma fan bang wo tui kuan",
+          "expected": [
+            "麻烦帮我退款"
+          ],
+          "input": "623262264968845826",
+          "first": "麻烦帮我退款",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_24",
+          "group": "everyday",
+          "pinyin": "zhe ge chi cun tai da le",
+          "expected": [
+            "这个尺寸太大了"
+          ],
+          "input": "943432442868243253",
+          "first": "这代管太大了",
+          "top1_match": false
+        },
+        {
+          "id": "questions_25",
+          "group": "everyday",
+          "pinyin": "ni jue de zen me yang",
+          "expected": [
+            "你觉得怎么样"
+          ],
+          "input": "6458333936639264",
+          "first": "你觉得怎么样",
+          "top1_match": true
+        },
+        {
+          "id": "questions_26",
+          "group": "everyday",
+          "pinyin": "zhe shi zen me hui shi",
+          "expected": [
+            "这是怎么回事"
+          ],
+          "input": "94374493663484744",
+          "first": "这是怎么回事",
+          "top1_match": true
+        },
+        {
+          "id": "questions_27",
+          "group": "everyday",
+          "pinyin": "ni neng ting dao ma",
+          "expected": [
+            "你能听到吗"
+          ],
+          "input": "646364846432662",
+          "first": "你能听到吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_28",
+          "group": "everyday",
+          "pinyin": "wo ying gai qu na li",
+          "expected": [
+            "我应该去哪里"
+          ],
+          "input": "969464424786254",
+          "first": "我应该去哪里",
+          "top1_match": true
+        },
+        {
+          "id": "questions_29",
+          "group": "everyday",
+          "pinyin": "hai you bie de ban fa ma",
+          "expected": [
+            "还有别的办法吗"
+          ],
+          "input": "424968243332263262",
+          "first": "还有别的办法吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_30",
+          "group": "everyday",
+          "pinyin": "wei shen me zhe me man",
+          "expected": [
+            "为什么这么慢"
+          ],
+          "input": "93474366394363626",
+          "first": "为什么这么难",
+          "top1_match": false
+        },
+        {
+          "id": "negation_31",
+          "group": "everyday",
+          "pinyin": "wo jin tian bu qu le",
+          "expected": [
+            "我今天不去了"
+          ],
+          "input": "965468426287853",
+          "first": "我今天不去了",
+          "top1_match": true
+        },
+        {
+          "id": "negation_32",
+          "group": "everyday",
+          "pinyin": "zhe ge bu shi wo de",
+          "expected": [
+            "这个不是我的"
+          ],
+          "input": "94343287449633",
+          "first": "这个不是我的",
+          "top1_match": true
+        },
+        {
+          "id": "negation_33",
+          "group": "everyday",
+          "pinyin": "wo hai mei you shou dao",
+          "expected": [
+            "我还没有收到"
+          ],
+          "input": "964246349687468326",
+          "first": "我还没有收到",
+          "top1_match": true
+        },
+        {
+          "id": "negation_34",
+          "group": "everyday",
+          "pinyin": "xian bu yao gao su bie ren",
+          "expected": [
+            "先不要告诉别人"
+          ],
+          "input": "94262892642678243736",
+          "first": "小不要告诉别人",
+          "top1_match": false
+        },
+        {
+          "id": "negation_35",
+          "group": "everyday",
+          "pinyin": "xian zai bu yong zhao ji",
+          "expected": [
+            "现在不用着急"
+          ],
+          "input": "9426924289664942654",
+          "first": "现在不用着急",
+          "top1_match": true
+        },
+        {
+          "id": "negation_36",
+          "group": "everyday",
+          "pinyin": "wo mei ting qing chu",
+          "expected": [
+            "我没听清楚"
+          ],
+          "input": "9663484647464248",
+          "first": "我没听清楚",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_37",
+          "group": "everyday",
+          "pinyin": "yi gong duo shao qian",
+          "expected": [
+            "一共多少钱"
+          ],
+          "input": "94466438674267426",
+          "first": "一共多少钱",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_38",
+          "group": "everyday",
+          "pinyin": "wo yi jing zhuan zhang le",
+          "expected": [
+            "我已经转账了",
+            "我已经转帐了"
+          ],
+          "input": "96945464948269426453",
+          "first": "我已经转向了",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_39",
+          "group": "everyday",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "晚上八点见",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_40",
+          "group": "everyday",
+          "pinyin": "hai you shi fen zhong",
+          "expected": [
+            "还有十分钟"
+          ],
+          "input": "42496874433694664",
+          "first": "还有十分钟",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_41",
+          "group": "everyday",
+          "pinyin": "zhe ge jia ge ke yi",
+          "expected": [
+            "这个价格可以"
+          ],
+          "input": "94343542435394",
+          "first": "这个价格可议",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_42",
+          "group": "everyday",
+          "pinyin": "jin tian lai de ji ma",
+          "expected": [
+            "今天来得及吗"
+          ],
+          "input": "5468426524335462",
+          "first": "今天来的料",
+          "top1_match": false
+        },
+        {
+          "id": "food_43",
+          "group": "everyday",
+          "pinyin": "wan shang chi shen me",
+          "expected": [
+            "晚上吃什么"
+          ],
+          "input": "92674264244743663",
+          "first": "晚上吃什么",
+          "top1_match": true
+        },
+        {
+          "id": "food_44",
+          "group": "everyday",
+          "pinyin": "gei wo yi bei re shui",
+          "expected": [
+            "给我一杯热水"
+          ],
+          "input": "4349694234737484",
+          "first": "给我一杯热水",
+          "top1_match": true
+        },
+        {
+          "id": "food_45",
+          "group": "everyday",
+          "pinyin": "bu yao fang la jiao",
+          "expected": [
+            "不要放辣椒"
+          ],
+          "input": "289263264525426",
+          "first": "不要放辣椒",
+          "top1_match": true
+        },
+        {
+          "id": "food_46",
+          "group": "everyday",
+          "pinyin": "zhe jia dian ting hao chi",
+          "expected": [
+            "这家店挺好吃"
+          ],
+          "input": "94354234268464426244",
+          "first": "这家店挺好吃",
+          "top1_match": true
+        },
+        {
+          "id": "food_47",
+          "group": "everyday",
+          "pinyin": "wo xiang dian ge wai mai",
+          "expected": [
+            "我想点个外卖"
+          ],
+          "input": "9694264342643924624",
+          "first": "我想点个外卖",
+          "top1_match": true
+        },
+        {
+          "id": "food_48",
+          "group": "everyday",
+          "pinyin": "wo men chu qu chi ba",
+          "expected": [
+            "我们出去吃吧"
+          ],
+          "input": "966362487824422",
+          "first": "我们出去吃吧",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_49",
+          "group": "everyday",
+          "pinyin": "wo zai lou xia deng ni",
+          "expected": [
+            "我在楼下等你"
+          ],
+          "input": "96924568942336464",
+          "first": "我在楼下等你",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_50",
+          "group": "everyday",
+          "pinyin": "di zhi fa gei wo yi xia",
+          "expected": [
+            "地址发给我一下"
+          ],
+          "input": "34944324349694942",
+          "first": "地制法给我一下",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_51",
+          "group": "everyday",
+          "pinyin": "di tie hai you ji zhan",
+          "expected": [
+            "地铁还有几站"
+          ],
+          "input": "34843424968549426",
+          "first": "地铁还有极限",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_52",
+          "group": "everyday",
+          "pinyin": "ni dao jia gao su wo",
+          "expected": [
+            "你到家告诉我"
+          ],
+          "input": "643265424267896",
+          "first": "米饭家告诉我",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_53",
+          "group": "everyday",
+          "pinyin": "lu shang zhu yi an quan",
+          "expected": [
+            "路上注意安全"
+          ],
+          "input": "587426494894267826",
+          "first": "路上注意安全",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_54",
+          "group": "everyday",
+          "pinyin": "wo zhao bu dao ru kou",
+          "expected": [
+            "我找不到入口"
+          ],
+          "input": "9694262832678568",
+          "first": "我找不到入口",
+          "top1_match": true
+        },
+        {
+          "id": "social_55",
+          "group": "everyday",
+          "pinyin": "xin ku ni le",
+          "expected": [
+            "辛苦你了"
+          ],
+          "input": "946586453",
+          "first": "辛苦你了",
+          "top1_match": true
+        },
+        {
+          "id": "social_56",
+          "group": "everyday",
+          "pinyin": "zhe jian shi jiao gei wo",
+          "expected": [
+            "这件事交给我"
+          ],
+          "input": "9435426744542643496",
+          "first": "这件事交给我",
+          "top1_match": true
+        },
+        {
+          "id": "social_57",
+          "group": "everyday",
+          "pinyin": "fang bian de shi hou hui fu wo",
+          "expected": [
+            "方便的时候回复我"
+          ],
+          "input": "32642426337444684843896",
+          "first": "方便的时候回复我",
+          "top1_match": true
+        },
+        {
+          "id": "social_58",
+          "group": "everyday",
+          "pinyin": "sheng ri kuai le",
+          "expected": [
+            "生日快乐"
+          ],
+          "input": "7436474582453",
+          "first": "生日快乐",
+          "top1_match": true
+        },
+        {
+          "id": "social_59",
+          "group": "everyday",
+          "pinyin": "zhu ni yi qie shun li",
+          "expected": [
+            "祝你一切顺利"
+          ],
+          "input": "9486494743748654",
+          "first": "祝你一切顺利",
+          "top1_match": true
+        },
+        {
+          "id": "social_60",
+          "group": "everyday",
+          "pinyin": "xia ci you ji hui zai liao",
+          "expected": [
+            "下次有机会再聊"
+          ],
+          "input": "94224968544849245426",
+          "first": "下次有机会外键",
+          "top1_match": false
+        },
+        {
+          "id": "tech_61",
+          "group": "tech",
+          "pinyin": "shu ju ku shi wu",
+          "expected": [
+            "数据库事务"
+          ],
+          "input": "748585874498",
+          "first": "数据库事务",
+          "top1_match": true
+        },
+        {
+          "id": "tech_62",
+          "group": "tech",
+          "pinyin": "shi jian fu za du",
+          "expected": [
+            "时间复杂度"
+          ],
+          "input": "7445426389238",
+          "first": "时间复杂度",
+          "top1_match": true
+        },
+        {
+          "id": "tech_63",
+          "group": "tech",
+          "pinyin": "xiang liang shu ju ku",
+          "expected": [
+            "向量数据库"
+          ],
+          "input": "94264542647485858",
+          "first": "向量数据库",
+          "top1_match": true
+        },
+        {
+          "id": "tech_64",
+          "group": "tech",
+          "pinyin": "ti du xia jiang",
+          "expected": [
+            "梯度下降"
+          ],
+          "input": "843894254264",
+          "first": "梯度下降",
+          "top1_match": true
+        },
+        {
+          "id": "tech_65",
+          "group": "tech",
+          "pinyin": "duo tou zhu yi li",
+          "expected": [
+            "多头注意力"
+          ],
+          "input": "3868689489454",
+          "first": "多头注意力",
+          "top1_match": true
+        },
+        {
+          "id": "tech_66",
+          "group": "tech",
+          "pinyin": "xian xing dai shu",
+          "expected": [
+            "线性代数"
+          ],
+          "input": "94269464324748",
+          "first": "线性代数",
+          "top1_match": true
+        },
+        {
+          "id": "tech_67",
+          "group": "tech",
+          "pinyin": "er cha sou suo shu",
+          "expected": [
+            "二叉搜索树"
+          ],
+          "input": "37242768786748",
+          "first": "二叉搜索树",
+          "top1_match": true
+        },
+        {
+          "id": "tech_68",
+          "group": "tech",
+          "pinyin": "fu zai jun heng",
+          "expected": [
+            "负载均衡"
+          ],
+          "input": "389245864364",
+          "first": "负载均衡",
+          "top1_match": true
+        },
+        {
+          "id": "tech_69",
+          "group": "tech",
+          "pinyin": "fu li ye bian huan",
+          "expected": [
+            "傅里叶变换"
+          ],
+          "input": "38549324264826",
+          "first": "傅里叶变换",
+          "top1_match": true
+        },
+        {
+          "id": "tech_70",
+          "group": "tech",
+          "pinyin": "dong tai gui hua",
+          "expected": [
+            "动态规划"
+          ],
+          "input": "3664824484482",
+          "first": "动态规划",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_71",
+          "group": "prior_user",
+          "pinyin": "ha ha ha",
+          "expected": [
+            "哈哈哈"
+          ],
+          "input": "424242",
+          "first": "哈哈哈",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_72",
+          "group": "prior_user",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_73",
+          "group": "prior_user",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这冻毁了",
+          "top1_match": false
+        }
+      ]
+    },
+    "latest_ice": {
+      "summary": {
+        "everyday": {
+          "total": 60,
+          "top1": 42,
+          "top7": 42
+        },
+        "tech": {
+          "total": 10,
+          "top1": 10,
+          "top7": 10
+        },
+        "prior_user": {
+          "total": 3,
+          "top1": 2,
+          "top7": 2
+        }
+      },
+      "results": [
+        {
+          "id": "chat_01",
+          "group": "everyday",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "top1_match": true
+        },
+        {
+          "id": "chat_02",
+          "group": "everyday",
+          "pinyin": "wo gang mang wan",
+          "expected": [
+            "我刚忙完"
+          ],
+          "input": "9642646264926",
+          "first": "我刚忙完",
+          "top1_match": true
+        },
+        {
+          "id": "chat_03",
+          "group": "everyday",
+          "pinyin": "deng yi xia zai shuo",
+          "expected": [
+            "等一下再说"
+          ],
+          "input": "3364949429247486",
+          "first": "等一下再说",
+          "top1_match": true
+        },
+        {
+          "id": "chat_04",
+          "group": "everyday",
+          "pinyin": "wo ma shang hui lai",
+          "expected": [
+            "我马上回来"
+          ],
+          "input": "966274264484524",
+          "first": "我马上回来",
+          "top1_match": true
+        },
+        {
+          "id": "chat_05",
+          "group": "everyday",
+          "pinyin": "wo yi jing dao le",
+          "expected": [
+            "我已经到了"
+          ],
+          "input": "9694546432653",
+          "first": "我已经到了",
+          "top1_match": true
+        },
+        {
+          "id": "chat_06",
+          "group": "everyday",
+          "pinyin": "ni xian xiu xi ba",
+          "expected": [
+            "你先休息吧"
+          ],
+          "input": "6494269489422",
+          "first": "你先休息吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_07",
+          "group": "everyday",
+          "pinyin": "ming tian yi qi qu ba",
+          "expected": [
+            "明天一起去吧"
+          ],
+          "input": "6464842694747822",
+          "first": "明天一起去吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_08",
+          "group": "everyday",
+          "pinyin": "wo men ji dian chu fa",
+          "expected": [
+            "我们几点出发"
+          ],
+          "input": "9663654342624832",
+          "first": "我们几点出发",
+          "top1_match": true
+        },
+        {
+          "id": "plans_09",
+          "group": "everyday",
+          "pinyin": "xia wu you shi jian ma",
+          "expected": [
+            "下午有时间吗"
+          ],
+          "input": "94298968744542662",
+          "first": "下午有时间吗",
+          "top1_match": true
+        },
+        {
+          "id": "plans_10",
+          "group": "everyday",
+          "pinyin": "zhou mo you shen me an pai",
+          "expected": [
+            "周末有什么安排"
+          ],
+          "input": "94686696874366326724",
+          "first": "周末有什么安排",
+          "top1_match": true
+        },
+        {
+          "id": "plans_11",
+          "group": "everyday",
+          "pinyin": "wo ke neng wan yi dian",
+          "expected": [
+            "我可能晚一点"
+          ],
+          "input": "96536364926943426",
+          "first": "我可能早一点",
+          "top1_match": false
+        },
+        {
+          "id": "plans_12",
+          "group": "everyday",
+          "pinyin": "dao shi hou lian xi ni",
+          "expected": [
+            "到时候联系你"
+          ],
+          "input": "32674446854269464",
+          "first": "到时候践行",
+          "top1_match": false
+        },
+        {
+          "id": "campus_13",
+          "group": "everyday",
+          "pinyin": "jin tian you ke ma",
+          "expected": [
+            "今天有课吗"
+          ],
+          "input": "54684269685362",
+          "first": "今天走了吗",
+          "top1_match": false
+        },
+        {
+          "id": "campus_14",
+          "group": "everyday",
+          "pinyin": "zuo ye hai mei xie wan",
+          "expected": [
+            "作业还没写完"
+          ],
+          "input": "98693424634943926",
+          "first": "作业还没写完",
+          "top1_match": true
+        },
+        {
+          "id": "campus_15",
+          "group": "everyday",
+          "pinyin": "tu shu guan ji dian guan men",
+          "expected": [
+            "图书馆几点关门"
+          ],
+          "input": "8874848265434264826636",
+          "first": "图书管理店关门",
+          "top1_match": false
+        },
+        {
+          "id": "campus_16",
+          "group": "everyday",
+          "pinyin": "zhe ge wen ti zen me zuo",
+          "expected": [
+            "这个问题怎么做"
+          ],
+          "input": "943439368493663986",
+          "first": "这个问题怎么做",
+          "top1_match": true
+        },
+        {
+          "id": "campus_17",
+          "group": "everyday",
+          "pinyin": "wo zai jiao shi deng ni",
+          "expected": [
+            "我在教室等你"
+          ],
+          "input": "969245426744336464",
+          "first": "我在坚实的明",
+          "top1_match": false
+        },
+        {
+          "id": "campus_18",
+          "group": "everyday",
+          "pinyin": "ming tian kao shi jia you",
+          "expected": [
+            "明天考试加油"
+          ],
+          "input": "64648426526744542968",
+          "first": "明天考试加油",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_19",
+          "group": "everyday",
+          "pinyin": "zhe ge hai you huo ma",
+          "expected": [
+            "这个还有货吗"
+          ],
+          "input": "9434342496848662",
+          "first": "这个还有过吗",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_20",
+          "group": "everyday",
+          "pinyin": "ke yi pian yi yi dian ma",
+          "expected": [
+            "可以便宜一点吗"
+          ],
+          "input": "539474269494342662",
+          "first": "可以便宜这好吗",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_21",
+          "group": "everyday",
+          "pinyin": "wo xiang huan yi ge yan se",
+          "expected": [
+            "我想换一个颜色"
+          ],
+          "input": "96942644826944392673",
+          "first": "我想换一个颜色",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_22",
+          "group": "everyday",
+          "pinyin": "shen me shi hou neng fa huo",
+          "expected": [
+            "什么时候能发货"
+          ],
+          "input": "743663744468636432486",
+          "first": "什么时候能打过",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_23",
+          "group": "everyday",
+          "pinyin": "ma fan bang wo tui kuan",
+          "expected": [
+            "麻烦帮我退款"
+          ],
+          "input": "623262264968845826",
+          "first": "麻烦帮我退款",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_24",
+          "group": "everyday",
+          "pinyin": "zhe ge chi cun tai da le",
+          "expected": [
+            "这个尺寸太大了"
+          ],
+          "input": "943432442868243253",
+          "first": "这代管太大了",
+          "top1_match": false
+        },
+        {
+          "id": "questions_25",
+          "group": "everyday",
+          "pinyin": "ni jue de zen me yang",
+          "expected": [
+            "你觉得怎么样"
+          ],
+          "input": "6458333936639264",
+          "first": "你觉得怎么样",
+          "top1_match": true
+        },
+        {
+          "id": "questions_26",
+          "group": "everyday",
+          "pinyin": "zhe shi zen me hui shi",
+          "expected": [
+            "这是怎么回事"
+          ],
+          "input": "94374493663484744",
+          "first": "这是怎么回事",
+          "top1_match": true
+        },
+        {
+          "id": "questions_27",
+          "group": "everyday",
+          "pinyin": "ni neng ting dao ma",
+          "expected": [
+            "你能听到吗"
+          ],
+          "input": "646364846432662",
+          "first": "你能听到吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_28",
+          "group": "everyday",
+          "pinyin": "wo ying gai qu na li",
+          "expected": [
+            "我应该去哪里"
+          ],
+          "input": "969464424786254",
+          "first": "我应该去哪里",
+          "top1_match": true
+        },
+        {
+          "id": "questions_29",
+          "group": "everyday",
+          "pinyin": "hai you bie de ban fa ma",
+          "expected": [
+            "还有别的办法吗"
+          ],
+          "input": "424968243332263262",
+          "first": "还有别的办法吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_30",
+          "group": "everyday",
+          "pinyin": "wei shen me zhe me man",
+          "expected": [
+            "为什么这么慢"
+          ],
+          "input": "93474366394363626",
+          "first": "为什么这么难",
+          "top1_match": false
+        },
+        {
+          "id": "negation_31",
+          "group": "everyday",
+          "pinyin": "wo jin tian bu qu le",
+          "expected": [
+            "我今天不去了"
+          ],
+          "input": "965468426287853",
+          "first": "我今天不去了",
+          "top1_match": true
+        },
+        {
+          "id": "negation_32",
+          "group": "everyday",
+          "pinyin": "zhe ge bu shi wo de",
+          "expected": [
+            "这个不是我的"
+          ],
+          "input": "94343287449633",
+          "first": "这个不是我的",
+          "top1_match": true
+        },
+        {
+          "id": "negation_33",
+          "group": "everyday",
+          "pinyin": "wo hai mei you shou dao",
+          "expected": [
+            "我还没有收到"
+          ],
+          "input": "964246349687468326",
+          "first": "我还没有收到",
+          "top1_match": true
+        },
+        {
+          "id": "negation_34",
+          "group": "everyday",
+          "pinyin": "xian bu yao gao su bie ren",
+          "expected": [
+            "先不要告诉别人"
+          ],
+          "input": "94262892642678243736",
+          "first": "小不要告诉别人",
+          "top1_match": false
+        },
+        {
+          "id": "negation_35",
+          "group": "everyday",
+          "pinyin": "xian zai bu yong zhao ji",
+          "expected": [
+            "现在不用着急"
+          ],
+          "input": "9426924289664942654",
+          "first": "现在不用着急",
+          "top1_match": true
+        },
+        {
+          "id": "negation_36",
+          "group": "everyday",
+          "pinyin": "wo mei ting qing chu",
+          "expected": [
+            "我没听清楚"
+          ],
+          "input": "9663484647464248",
+          "first": "我没听清楚",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_37",
+          "group": "everyday",
+          "pinyin": "yi gong duo shao qian",
+          "expected": [
+            "一共多少钱"
+          ],
+          "input": "94466438674267426",
+          "first": "一共多少钱",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_38",
+          "group": "everyday",
+          "pinyin": "wo yi jing zhuan zhang le",
+          "expected": [
+            "我已经转账了",
+            "我已经转帐了"
+          ],
+          "input": "96945464948269426453",
+          "first": "我已经转向了",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_39",
+          "group": "everyday",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "晚上八点见",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_40",
+          "group": "everyday",
+          "pinyin": "hai you shi fen zhong",
+          "expected": [
+            "还有十分钟"
+          ],
+          "input": "42496874433694664",
+          "first": "还有十分钟",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_41",
+          "group": "everyday",
+          "pinyin": "zhe ge jia ge ke yi",
+          "expected": [
+            "这个价格可以"
+          ],
+          "input": "94343542435394",
+          "first": "这个价格可议",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_42",
+          "group": "everyday",
+          "pinyin": "jin tian lai de ji ma",
+          "expected": [
+            "今天来得及吗"
+          ],
+          "input": "5468426524335462",
+          "first": "今天来的料",
+          "top1_match": false
+        },
+        {
+          "id": "food_43",
+          "group": "everyday",
+          "pinyin": "wan shang chi shen me",
+          "expected": [
+            "晚上吃什么"
+          ],
+          "input": "92674264244743663",
+          "first": "晚上吃什么",
+          "top1_match": true
+        },
+        {
+          "id": "food_44",
+          "group": "everyday",
+          "pinyin": "gei wo yi bei re shui",
+          "expected": [
+            "给我一杯热水"
+          ],
+          "input": "4349694234737484",
+          "first": "给我一杯热水",
+          "top1_match": true
+        },
+        {
+          "id": "food_45",
+          "group": "everyday",
+          "pinyin": "bu yao fang la jiao",
+          "expected": [
+            "不要放辣椒"
+          ],
+          "input": "289263264525426",
+          "first": "不要放辣椒",
+          "top1_match": true
+        },
+        {
+          "id": "food_46",
+          "group": "everyday",
+          "pinyin": "zhe jia dian ting hao chi",
+          "expected": [
+            "这家店挺好吃"
+          ],
+          "input": "94354234268464426244",
+          "first": "这家店挺好吃",
+          "top1_match": true
+        },
+        {
+          "id": "food_47",
+          "group": "everyday",
+          "pinyin": "wo xiang dian ge wai mai",
+          "expected": [
+            "我想点个外卖"
+          ],
+          "input": "9694264342643924624",
+          "first": "我想点个外卖",
+          "top1_match": true
+        },
+        {
+          "id": "food_48",
+          "group": "everyday",
+          "pinyin": "wo men chu qu chi ba",
+          "expected": [
+            "我们出去吃吧"
+          ],
+          "input": "966362487824422",
+          "first": "我们出去吃吧",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_49",
+          "group": "everyday",
+          "pinyin": "wo zai lou xia deng ni",
+          "expected": [
+            "我在楼下等你"
+          ],
+          "input": "96924568942336464",
+          "first": "我在楼下等你",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_50",
+          "group": "everyday",
+          "pinyin": "di zhi fa gei wo yi xia",
+          "expected": [
+            "地址发给我一下"
+          ],
+          "input": "34944324349694942",
+          "first": "地制法给我一下",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_51",
+          "group": "everyday",
+          "pinyin": "di tie hai you ji zhan",
+          "expected": [
+            "地铁还有几站"
+          ],
+          "input": "34843424968549426",
+          "first": "地铁还有极限",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_52",
+          "group": "everyday",
+          "pinyin": "ni dao jia gao su wo",
+          "expected": [
+            "你到家告诉我"
+          ],
+          "input": "643265424267896",
+          "first": "米饭家告诉我",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_53",
+          "group": "everyday",
+          "pinyin": "lu shang zhu yi an quan",
+          "expected": [
+            "路上注意安全"
+          ],
+          "input": "587426494894267826",
+          "first": "路上注意安全",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_54",
+          "group": "everyday",
+          "pinyin": "wo zhao bu dao ru kou",
+          "expected": [
+            "我找不到入口"
+          ],
+          "input": "9694262832678568",
+          "first": "我找不到入口",
+          "top1_match": true
+        },
+        {
+          "id": "social_55",
+          "group": "everyday",
+          "pinyin": "xin ku ni le",
+          "expected": [
+            "辛苦你了"
+          ],
+          "input": "946586453",
+          "first": "辛苦你了",
+          "top1_match": true
+        },
+        {
+          "id": "social_56",
+          "group": "everyday",
+          "pinyin": "zhe jian shi jiao gei wo",
+          "expected": [
+            "这件事交给我"
+          ],
+          "input": "9435426744542643496",
+          "first": "这件事交给我",
+          "top1_match": true
+        },
+        {
+          "id": "social_57",
+          "group": "everyday",
+          "pinyin": "fang bian de shi hou hui fu wo",
+          "expected": [
+            "方便的时候回复我"
+          ],
+          "input": "32642426337444684843896",
+          "first": "方便的时候回复我",
+          "top1_match": true
+        },
+        {
+          "id": "social_58",
+          "group": "everyday",
+          "pinyin": "sheng ri kuai le",
+          "expected": [
+            "生日快乐"
+          ],
+          "input": "7436474582453",
+          "first": "生日快乐",
+          "top1_match": true
+        },
+        {
+          "id": "social_59",
+          "group": "everyday",
+          "pinyin": "zhu ni yi qie shun li",
+          "expected": [
+            "祝你一切顺利"
+          ],
+          "input": "9486494743748654",
+          "first": "祝你一切顺利",
+          "top1_match": true
+        },
+        {
+          "id": "social_60",
+          "group": "everyday",
+          "pinyin": "xia ci you ji hui zai liao",
+          "expected": [
+            "下次有机会再聊"
+          ],
+          "input": "94224968544849245426",
+          "first": "下次有机会外键",
+          "top1_match": false
+        },
+        {
+          "id": "tech_61",
+          "group": "tech",
+          "pinyin": "shu ju ku shi wu",
+          "expected": [
+            "数据库事务"
+          ],
+          "input": "748585874498",
+          "first": "数据库事务",
+          "top1_match": true
+        },
+        {
+          "id": "tech_62",
+          "group": "tech",
+          "pinyin": "shi jian fu za du",
+          "expected": [
+            "时间复杂度"
+          ],
+          "input": "7445426389238",
+          "first": "时间复杂度",
+          "top1_match": true
+        },
+        {
+          "id": "tech_63",
+          "group": "tech",
+          "pinyin": "xiang liang shu ju ku",
+          "expected": [
+            "向量数据库"
+          ],
+          "input": "94264542647485858",
+          "first": "向量数据库",
+          "top1_match": true
+        },
+        {
+          "id": "tech_64",
+          "group": "tech",
+          "pinyin": "ti du xia jiang",
+          "expected": [
+            "梯度下降"
+          ],
+          "input": "843894254264",
+          "first": "梯度下降",
+          "top1_match": true
+        },
+        {
+          "id": "tech_65",
+          "group": "tech",
+          "pinyin": "duo tou zhu yi li",
+          "expected": [
+            "多头注意力"
+          ],
+          "input": "3868689489454",
+          "first": "多头注意力",
+          "top1_match": true
+        },
+        {
+          "id": "tech_66",
+          "group": "tech",
+          "pinyin": "xian xing dai shu",
+          "expected": [
+            "线性代数"
+          ],
+          "input": "94269464324748",
+          "first": "线性代数",
+          "top1_match": true
+        },
+        {
+          "id": "tech_67",
+          "group": "tech",
+          "pinyin": "er cha sou suo shu",
+          "expected": [
+            "二叉搜索树"
+          ],
+          "input": "37242768786748",
+          "first": "二叉搜索树",
+          "top1_match": true
+        },
+        {
+          "id": "tech_68",
+          "group": "tech",
+          "pinyin": "fu zai jun heng",
+          "expected": [
+            "负载均衡"
+          ],
+          "input": "389245864364",
+          "first": "负载均衡",
+          "top1_match": true
+        },
+        {
+          "id": "tech_69",
+          "group": "tech",
+          "pinyin": "fu li ye bian huan",
+          "expected": [
+            "傅里叶变换"
+          ],
+          "input": "38549324264826",
+          "first": "傅里叶变换",
+          "top1_match": true
+        },
+        {
+          "id": "tech_70",
+          "group": "tech",
+          "pinyin": "dong tai gui hua",
+          "expected": [
+            "动态规划"
+          ],
+          "input": "3664824484482",
+          "first": "动态规划",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_71",
+          "group": "prior_user",
+          "pinyin": "ha ha ha",
+          "expected": [
+            "哈哈哈"
+          ],
+          "input": "424242",
+          "first": "哈哈哈",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_72",
+          "group": "prior_user",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_73",
+          "group": "prior_user",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这冻毁了",
+          "top1_match": false
+        }
+      ]
+    },
+    "frost_core": {
+      "summary": {
+        "everyday": {
+          "total": 60,
+          "top1": 46,
+          "top7": 46
+        },
+        "tech": {
+          "total": 10,
+          "top1": 10,
+          "top7": 10
+        },
+        "prior_user": {
+          "total": 3,
+          "top1": 2,
+          "top7": 2
+        }
+      },
+      "results": [
+        {
+          "id": "chat_01",
+          "group": "everyday",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "top1_match": true
+        },
+        {
+          "id": "chat_02",
+          "group": "everyday",
+          "pinyin": "wo gang mang wan",
+          "expected": [
+            "我刚忙完"
+          ],
+          "input": "9642646264926",
+          "first": "我刚忙完",
+          "top1_match": true
+        },
+        {
+          "id": "chat_03",
+          "group": "everyday",
+          "pinyin": "deng yi xia zai shuo",
+          "expected": [
+            "等一下再说"
+          ],
+          "input": "3364949429247486",
+          "first": "等一下再说",
+          "top1_match": true
+        },
+        {
+          "id": "chat_04",
+          "group": "everyday",
+          "pinyin": "wo ma shang hui lai",
+          "expected": [
+            "我马上回来"
+          ],
+          "input": "966274264484524",
+          "first": "我马上回来",
+          "top1_match": true
+        },
+        {
+          "id": "chat_05",
+          "group": "everyday",
+          "pinyin": "wo yi jing dao le",
+          "expected": [
+            "我已经到了"
+          ],
+          "input": "9694546432653",
+          "first": "我已经到了",
+          "top1_match": true
+        },
+        {
+          "id": "chat_06",
+          "group": "everyday",
+          "pinyin": "ni xian xiu xi ba",
+          "expected": [
+            "你先休息吧"
+          ],
+          "input": "6494269489422",
+          "first": "你先休息吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_07",
+          "group": "everyday",
+          "pinyin": "ming tian yi qi qu ba",
+          "expected": [
+            "明天一起去吧"
+          ],
+          "input": "6464842694747822",
+          "first": "明天一起去吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_08",
+          "group": "everyday",
+          "pinyin": "wo men ji dian chu fa",
+          "expected": [
+            "我们几点出发"
+          ],
+          "input": "9663654342624832",
+          "first": "我们几点出发",
+          "top1_match": true
+        },
+        {
+          "id": "plans_09",
+          "group": "everyday",
+          "pinyin": "xia wu you shi jian ma",
+          "expected": [
+            "下午有时间吗"
+          ],
+          "input": "94298968744542662",
+          "first": "下午有时间吗",
+          "top1_match": true
+        },
+        {
+          "id": "plans_10",
+          "group": "everyday",
+          "pinyin": "zhou mo you shen me an pai",
+          "expected": [
+            "周末有什么安排"
+          ],
+          "input": "94686696874366326724",
+          "first": "周末有什么安排",
+          "top1_match": true
+        },
+        {
+          "id": "plans_11",
+          "group": "everyday",
+          "pinyin": "wo ke neng wan yi dian",
+          "expected": [
+            "我可能晚一点"
+          ],
+          "input": "96536364926943426",
+          "first": "我可能早一点",
+          "top1_match": false
+        },
+        {
+          "id": "plans_12",
+          "group": "everyday",
+          "pinyin": "dao shi hou lian xi ni",
+          "expected": [
+            "到时候联系你"
+          ],
+          "input": "32674446854269464",
+          "first": "到时候建议你",
+          "top1_match": false
+        },
+        {
+          "id": "campus_13",
+          "group": "everyday",
+          "pinyin": "jin tian you ke ma",
+          "expected": [
+            "今天有课吗"
+          ],
+          "input": "54684269685362",
+          "first": "今天又了吗",
+          "top1_match": false
+        },
+        {
+          "id": "campus_14",
+          "group": "everyday",
+          "pinyin": "zuo ye hai mei xie wan",
+          "expected": [
+            "作业还没写完"
+          ],
+          "input": "98693424634943926",
+          "first": "作业还没写完",
+          "top1_match": true
+        },
+        {
+          "id": "campus_15",
+          "group": "everyday",
+          "pinyin": "tu shu guan ji dian guan men",
+          "expected": [
+            "图书馆几点关门"
+          ],
+          "input": "8874848265434264826636",
+          "first": "图书馆几点关门",
+          "top1_match": true
+        },
+        {
+          "id": "campus_16",
+          "group": "everyday",
+          "pinyin": "zhe ge wen ti zen me zuo",
+          "expected": [
+            "这个问题怎么做"
+          ],
+          "input": "943439368493663986",
+          "first": "这个问题怎么做",
+          "top1_match": true
+        },
+        {
+          "id": "campus_17",
+          "group": "everyday",
+          "pinyin": "wo zai jiao shi deng ni",
+          "expected": [
+            "我在教室等你"
+          ],
+          "input": "969245426744336464",
+          "first": "我在教师等你",
+          "top1_match": false
+        },
+        {
+          "id": "campus_18",
+          "group": "everyday",
+          "pinyin": "ming tian kao shi jia you",
+          "expected": [
+            "明天考试加油"
+          ],
+          "input": "64648426526744542968",
+          "first": "明天考试加油",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_19",
+          "group": "everyday",
+          "pinyin": "zhe ge hai you huo ma",
+          "expected": [
+            "这个还有货吗"
+          ],
+          "input": "9434342496848662",
+          "first": "这个还有过吗",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_20",
+          "group": "everyday",
+          "pinyin": "ke yi pian yi yi dian ma",
+          "expected": [
+            "可以便宜一点吗"
+          ],
+          "input": "539474269494342662",
+          "first": "可以便宜一点吗",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_21",
+          "group": "everyday",
+          "pinyin": "wo xiang huan yi ge yan se",
+          "expected": [
+            "我想换一个颜色"
+          ],
+          "input": "96942644826944392673",
+          "first": "我想换一个颜色",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_22",
+          "group": "everyday",
+          "pinyin": "shen me shi hou neng fa huo",
+          "expected": [
+            "什么时候能发货"
+          ],
+          "input": "743663744468636432486",
+          "first": "什么时候能发货",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_23",
+          "group": "everyday",
+          "pinyin": "ma fan bang wo tui kuan",
+          "expected": [
+            "麻烦帮我退款"
+          ],
+          "input": "623262264968845826",
+          "first": "拿到帮我退款",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_24",
+          "group": "everyday",
+          "pinyin": "zhe ge chi cun tai da le",
+          "expected": [
+            "这个尺寸太大了"
+          ],
+          "input": "943432442868243253",
+          "first": "这个尺寸太大了",
+          "top1_match": true
+        },
+        {
+          "id": "questions_25",
+          "group": "everyday",
+          "pinyin": "ni jue de zen me yang",
+          "expected": [
+            "你觉得怎么样"
+          ],
+          "input": "6458333936639264",
+          "first": "你觉得怎么样",
+          "top1_match": true
+        },
+        {
+          "id": "questions_26",
+          "group": "everyday",
+          "pinyin": "zhe shi zen me hui shi",
+          "expected": [
+            "这是怎么回事"
+          ],
+          "input": "94374493663484744",
+          "first": "这是怎么回事",
+          "top1_match": true
+        },
+        {
+          "id": "questions_27",
+          "group": "everyday",
+          "pinyin": "ni neng ting dao ma",
+          "expected": [
+            "你能听到吗"
+          ],
+          "input": "646364846432662",
+          "first": "你能听到吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_28",
+          "group": "everyday",
+          "pinyin": "wo ying gai qu na li",
+          "expected": [
+            "我应该去哪里"
+          ],
+          "input": "969464424786254",
+          "first": "我应该去哪里",
+          "top1_match": true
+        },
+        {
+          "id": "questions_29",
+          "group": "everyday",
+          "pinyin": "hai you bie de ban fa ma",
+          "expected": [
+            "还有别的办法吗"
+          ],
+          "input": "424968243332263262",
+          "first": "还有别的办法吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_30",
+          "group": "everyday",
+          "pinyin": "wei shen me zhe me man",
+          "expected": [
+            "为什么这么慢"
+          ],
+          "input": "93474366394363626",
+          "first": "为什么这么难",
+          "top1_match": false
+        },
+        {
+          "id": "negation_31",
+          "group": "everyday",
+          "pinyin": "wo jin tian bu qu le",
+          "expected": [
+            "我今天不去了"
+          ],
+          "input": "965468426287853",
+          "first": "我今天不去了",
+          "top1_match": true
+        },
+        {
+          "id": "negation_32",
+          "group": "everyday",
+          "pinyin": "zhe ge bu shi wo de",
+          "expected": [
+            "这个不是我的"
+          ],
+          "input": "94343287449633",
+          "first": "这个不是我的",
+          "top1_match": true
+        },
+        {
+          "id": "negation_33",
+          "group": "everyday",
+          "pinyin": "wo hai mei you shou dao",
+          "expected": [
+            "我还没有收到"
+          ],
+          "input": "964246349687468326",
+          "first": "我还没有求导",
+          "top1_match": false
+        },
+        {
+          "id": "negation_34",
+          "group": "everyday",
+          "pinyin": "xian bu yao gao su bie ren",
+          "expected": [
+            "先不要告诉别人"
+          ],
+          "input": "94262892642678243736",
+          "first": "小不要告诉别人",
+          "top1_match": false
+        },
+        {
+          "id": "negation_35",
+          "group": "everyday",
+          "pinyin": "xian zai bu yong zhao ji",
+          "expected": [
+            "现在不用着急"
+          ],
+          "input": "9426924289664942654",
+          "first": "现在不用着急",
+          "top1_match": true
+        },
+        {
+          "id": "negation_36",
+          "group": "everyday",
+          "pinyin": "wo mei ting qing chu",
+          "expected": [
+            "我没听清楚"
+          ],
+          "input": "9663484647464248",
+          "first": "我没听清楚",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_37",
+          "group": "everyday",
+          "pinyin": "yi gong duo shao qian",
+          "expected": [
+            "一共多少钱"
+          ],
+          "input": "94466438674267426",
+          "first": "一共多少钱",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_38",
+          "group": "everyday",
+          "pinyin": "wo yi jing zhuan zhang le",
+          "expected": [
+            "我已经转账了",
+            "我已经转帐了"
+          ],
+          "input": "96945464948269426453",
+          "first": "我已经转向了",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_39",
+          "group": "everyday",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "早上八点叫",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_40",
+          "group": "everyday",
+          "pinyin": "hai you shi fen zhong",
+          "expected": [
+            "还有十分钟"
+          ],
+          "input": "42496874433694664",
+          "first": "还有十分钟",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_41",
+          "group": "everyday",
+          "pinyin": "zhe ge jia ge ke yi",
+          "expected": [
+            "这个价格可以"
+          ],
+          "input": "94343542435394",
+          "first": "这个价格可以",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_42",
+          "group": "everyday",
+          "pinyin": "jin tian lai de ji ma",
+          "expected": [
+            "今天来得及吗"
+          ],
+          "input": "5468426524335462",
+          "first": "今天来得及吗",
+          "top1_match": true
+        },
+        {
+          "id": "food_43",
+          "group": "everyday",
+          "pinyin": "wan shang chi shen me",
+          "expected": [
+            "晚上吃什么"
+          ],
+          "input": "92674264244743663",
+          "first": "晚上吃什么",
+          "top1_match": true
+        },
+        {
+          "id": "food_44",
+          "group": "everyday",
+          "pinyin": "gei wo yi bei re shui",
+          "expected": [
+            "给我一杯热水"
+          ],
+          "input": "4349694234737484",
+          "first": "给我一杯热水",
+          "top1_match": true
+        },
+        {
+          "id": "food_45",
+          "group": "everyday",
+          "pinyin": "bu yao fang la jiao",
+          "expected": [
+            "不要放辣椒"
+          ],
+          "input": "289263264525426",
+          "first": "不要放辣椒",
+          "top1_match": true
+        },
+        {
+          "id": "food_46",
+          "group": "everyday",
+          "pinyin": "zhe jia dian ting hao chi",
+          "expected": [
+            "这家店挺好吃"
+          ],
+          "input": "94354234268464426244",
+          "first": "这家店挺好吃",
+          "top1_match": true
+        },
+        {
+          "id": "food_47",
+          "group": "everyday",
+          "pinyin": "wo xiang dian ge wai mai",
+          "expected": [
+            "我想点个外卖"
+          ],
+          "input": "9694264342643924624",
+          "first": "我想电荷外卖",
+          "top1_match": false
+        },
+        {
+          "id": "food_48",
+          "group": "everyday",
+          "pinyin": "wo men chu qu chi ba",
+          "expected": [
+            "我们出去吃吧"
+          ],
+          "input": "966362487824422",
+          "first": "我们出去吃吧",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_49",
+          "group": "everyday",
+          "pinyin": "wo zai lou xia deng ni",
+          "expected": [
+            "我在楼下等你"
+          ],
+          "input": "96924568942336464",
+          "first": "我在楼下等你",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_50",
+          "group": "everyday",
+          "pinyin": "di zhi fa gei wo yi xia",
+          "expected": [
+            "地址发给我一下"
+          ],
+          "input": "34944324349694942",
+          "first": "地址发给我一下",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_51",
+          "group": "everyday",
+          "pinyin": "di tie hai you ji zhan",
+          "expected": [
+            "地铁还有几站"
+          ],
+          "input": "34843424968549426",
+          "first": "地铁还有极限",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_52",
+          "group": "everyday",
+          "pinyin": "ni dao jia gao su wo",
+          "expected": [
+            "你到家告诉我"
+          ],
+          "input": "643265424267896",
+          "first": "你单价告诉我",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_53",
+          "group": "everyday",
+          "pinyin": "lu shang zhu yi an quan",
+          "expected": [
+            "路上注意安全"
+          ],
+          "input": "587426494894267826",
+          "first": "路上注意安全",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_54",
+          "group": "everyday",
+          "pinyin": "wo zhao bu dao ru kou",
+          "expected": [
+            "我找不到入口"
+          ],
+          "input": "9694262832678568",
+          "first": "我找不到入口",
+          "top1_match": true
+        },
+        {
+          "id": "social_55",
+          "group": "everyday",
+          "pinyin": "xin ku ni le",
+          "expected": [
+            "辛苦你了"
+          ],
+          "input": "946586453",
+          "first": "辛苦你了",
+          "top1_match": true
+        },
+        {
+          "id": "social_56",
+          "group": "everyday",
+          "pinyin": "zhe jian shi jiao gei wo",
+          "expected": [
+            "这件事交给我"
+          ],
+          "input": "9435426744542643496",
+          "first": "这件事交给我",
+          "top1_match": true
+        },
+        {
+          "id": "social_57",
+          "group": "everyday",
+          "pinyin": "fang bian de shi hou hui fu wo",
+          "expected": [
+            "方便的时候回复我"
+          ],
+          "input": "32642426337444684843896",
+          "first": "方便的时候回复我",
+          "top1_match": true
+        },
+        {
+          "id": "social_58",
+          "group": "everyday",
+          "pinyin": "sheng ri kuai le",
+          "expected": [
+            "生日快乐"
+          ],
+          "input": "7436474582453",
+          "first": "生日快乐",
+          "top1_match": true
+        },
+        {
+          "id": "social_59",
+          "group": "everyday",
+          "pinyin": "zhu ni yi qie shun li",
+          "expected": [
+            "祝你一切顺利"
+          ],
+          "input": "9486494743748654",
+          "first": "祝你一切顺利",
+          "top1_match": true
+        },
+        {
+          "id": "social_60",
+          "group": "everyday",
+          "pinyin": "xia ci you ji hui zai liao",
+          "expected": [
+            "下次有机会再聊"
+          ],
+          "input": "94224968544849245426",
+          "first": "下次有机会再聊",
+          "top1_match": true
+        },
+        {
+          "id": "tech_61",
+          "group": "tech",
+          "pinyin": "shu ju ku shi wu",
+          "expected": [
+            "数据库事务"
+          ],
+          "input": "748585874498",
+          "first": "数据库事务",
+          "top1_match": true
+        },
+        {
+          "id": "tech_62",
+          "group": "tech",
+          "pinyin": "shi jian fu za du",
+          "expected": [
+            "时间复杂度"
+          ],
+          "input": "7445426389238",
+          "first": "时间复杂度",
+          "top1_match": true
+        },
+        {
+          "id": "tech_63",
+          "group": "tech",
+          "pinyin": "xiang liang shu ju ku",
+          "expected": [
+            "向量数据库"
+          ],
+          "input": "94264542647485858",
+          "first": "向量数据库",
+          "top1_match": true
+        },
+        {
+          "id": "tech_64",
+          "group": "tech",
+          "pinyin": "ti du xia jiang",
+          "expected": [
+            "梯度下降"
+          ],
+          "input": "843894254264",
+          "first": "梯度下降",
+          "top1_match": true
+        },
+        {
+          "id": "tech_65",
+          "group": "tech",
+          "pinyin": "duo tou zhu yi li",
+          "expected": [
+            "多头注意力"
+          ],
+          "input": "3868689489454",
+          "first": "多头注意力",
+          "top1_match": true
+        },
+        {
+          "id": "tech_66",
+          "group": "tech",
+          "pinyin": "xian xing dai shu",
+          "expected": [
+            "线性代数"
+          ],
+          "input": "94269464324748",
+          "first": "线性代数",
+          "top1_match": true
+        },
+        {
+          "id": "tech_67",
+          "group": "tech",
+          "pinyin": "er cha sou suo shu",
+          "expected": [
+            "二叉搜索树"
+          ],
+          "input": "37242768786748",
+          "first": "二叉搜索树",
+          "top1_match": true
+        },
+        {
+          "id": "tech_68",
+          "group": "tech",
+          "pinyin": "fu zai jun heng",
+          "expected": [
+            "负载均衡"
+          ],
+          "input": "389245864364",
+          "first": "负载均衡",
+          "top1_match": true
+        },
+        {
+          "id": "tech_69",
+          "group": "tech",
+          "pinyin": "fu li ye bian huan",
+          "expected": [
+            "傅里叶变换"
+          ],
+          "input": "38549324264826",
+          "first": "傅里叶变换",
+          "top1_match": true
+        },
+        {
+          "id": "tech_70",
+          "group": "tech",
+          "pinyin": "dong tai gui hua",
+          "expected": [
+            "动态规划"
+          ],
+          "input": "3664824484482",
+          "first": "动态规划",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_71",
+          "group": "prior_user",
+          "pinyin": "ha ha ha",
+          "expected": [
+            "哈哈哈"
+          ],
+          "input": "424242",
+          "first": "哈哈哈",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_72",
+          "group": "prior_user",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_73",
+          "group": "prior_user",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这跟毁了",
+          "top1_match": false
+        }
+      ]
+    },
+    "frost_default": {
+      "summary": {
+        "everyday": {
+          "total": 60,
+          "top1": 44,
+          "top7": 44
+        },
+        "tech": {
+          "total": 10,
+          "top1": 10,
+          "top7": 10
+        },
+        "prior_user": {
+          "total": 3,
+          "top1": 2,
+          "top7": 2
+        }
+      },
+      "results": [
+        {
+          "id": "chat_01",
+          "group": "everyday",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "top1_match": true
+        },
+        {
+          "id": "chat_02",
+          "group": "everyday",
+          "pinyin": "wo gang mang wan",
+          "expected": [
+            "我刚忙完"
+          ],
+          "input": "9642646264926",
+          "first": "我刚忙完",
+          "top1_match": true
+        },
+        {
+          "id": "chat_03",
+          "group": "everyday",
+          "pinyin": "deng yi xia zai shuo",
+          "expected": [
+            "等一下再说"
+          ],
+          "input": "3364949429247486",
+          "first": "等一下再说",
+          "top1_match": true
+        },
+        {
+          "id": "chat_04",
+          "group": "everyday",
+          "pinyin": "wo ma shang hui lai",
+          "expected": [
+            "我马上回来"
+          ],
+          "input": "966274264484524",
+          "first": "我马上回来",
+          "top1_match": true
+        },
+        {
+          "id": "chat_05",
+          "group": "everyday",
+          "pinyin": "wo yi jing dao le",
+          "expected": [
+            "我已经到了"
+          ],
+          "input": "9694546432653",
+          "first": "我已经到了",
+          "top1_match": true
+        },
+        {
+          "id": "chat_06",
+          "group": "everyday",
+          "pinyin": "ni xian xiu xi ba",
+          "expected": [
+            "你先休息吧"
+          ],
+          "input": "6494269489422",
+          "first": "你先休息吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_07",
+          "group": "everyday",
+          "pinyin": "ming tian yi qi qu ba",
+          "expected": [
+            "明天一起去吧"
+          ],
+          "input": "6464842694747822",
+          "first": "明天一起去吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_08",
+          "group": "everyday",
+          "pinyin": "wo men ji dian chu fa",
+          "expected": [
+            "我们几点出发"
+          ],
+          "input": "9663654342624832",
+          "first": "我们几点出发",
+          "top1_match": true
+        },
+        {
+          "id": "plans_09",
+          "group": "everyday",
+          "pinyin": "xia wu you shi jian ma",
+          "expected": [
+            "下午有时间吗"
+          ],
+          "input": "94298968744542662",
+          "first": "下午有时间吗",
+          "top1_match": true
+        },
+        {
+          "id": "plans_10",
+          "group": "everyday",
+          "pinyin": "zhou mo you shen me an pai",
+          "expected": [
+            "周末有什么安排"
+          ],
+          "input": "94686696874366326724",
+          "first": "周末有什么安排",
+          "top1_match": true
+        },
+        {
+          "id": "plans_11",
+          "group": "everyday",
+          "pinyin": "wo ke neng wan yi dian",
+          "expected": [
+            "我可能晚一点"
+          ],
+          "input": "96536364926943426",
+          "first": "我可能早一点",
+          "top1_match": false
+        },
+        {
+          "id": "plans_12",
+          "group": "everyday",
+          "pinyin": "dao shi hou lian xi ni",
+          "expected": [
+            "到时候联系你"
+          ],
+          "input": "32674446854269464",
+          "first": "到时候建议你",
+          "top1_match": false
+        },
+        {
+          "id": "campus_13",
+          "group": "everyday",
+          "pinyin": "jin tian you ke ma",
+          "expected": [
+            "今天有课吗"
+          ],
+          "input": "54684269685362",
+          "first": "今天又了吗",
+          "top1_match": false
+        },
+        {
+          "id": "campus_14",
+          "group": "everyday",
+          "pinyin": "zuo ye hai mei xie wan",
+          "expected": [
+            "作业还没写完"
+          ],
+          "input": "98693424634943926",
+          "first": "作业还没写完",
+          "top1_match": true
+        },
+        {
+          "id": "campus_15",
+          "group": "everyday",
+          "pinyin": "tu shu guan ji dian guan men",
+          "expected": [
+            "图书馆几点关门"
+          ],
+          "input": "8874848265434264826636",
+          "first": "图书馆界高管们",
+          "top1_match": false
+        },
+        {
+          "id": "campus_16",
+          "group": "everyday",
+          "pinyin": "zhe ge wen ti zen me zuo",
+          "expected": [
+            "这个问题怎么做"
+          ],
+          "input": "943439368493663986",
+          "first": "这个问题怎么做",
+          "top1_match": true
+        },
+        {
+          "id": "campus_17",
+          "group": "everyday",
+          "pinyin": "wo zai jiao shi deng ni",
+          "expected": [
+            "我在教室等你"
+          ],
+          "input": "969245426744336464",
+          "first": "我外键士的宁",
+          "top1_match": false
+        },
+        {
+          "id": "campus_18",
+          "group": "everyday",
+          "pinyin": "ming tian kao shi jia you",
+          "expected": [
+            "明天考试加油"
+          ],
+          "input": "64648426526744542968",
+          "first": "明天考试加油",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_19",
+          "group": "everyday",
+          "pinyin": "zhe ge hai you huo ma",
+          "expected": [
+            "这个还有货吗"
+          ],
+          "input": "9434342496848662",
+          "first": "这个还有过吗",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_20",
+          "group": "everyday",
+          "pinyin": "ke yi pian yi yi dian ma",
+          "expected": [
+            "可以便宜一点吗"
+          ],
+          "input": "539474269494342662",
+          "first": "可以便宜一点吗",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_21",
+          "group": "everyday",
+          "pinyin": "wo xiang huan yi ge yan se",
+          "expected": [
+            "我想换一个颜色"
+          ],
+          "input": "96942644826944392673",
+          "first": "我想换一个颜色",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_22",
+          "group": "everyday",
+          "pinyin": "shen me shi hou neng fa huo",
+          "expected": [
+            "什么时候能发货"
+          ],
+          "input": "743663744468636432486",
+          "first": "什么时候能发货",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_23",
+          "group": "everyday",
+          "pinyin": "ma fan bang wo tui kuan",
+          "expected": [
+            "麻烦帮我退款"
+          ],
+          "input": "623262264968845826",
+          "first": "拿到帮我退款",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_24",
+          "group": "everyday",
+          "pinyin": "zhe ge chi cun tai da le",
+          "expected": [
+            "这个尺寸太大了"
+          ],
+          "input": "943432442868243253",
+          "first": "这个尺寸太大了",
+          "top1_match": true
+        },
+        {
+          "id": "questions_25",
+          "group": "everyday",
+          "pinyin": "ni jue de zen me yang",
+          "expected": [
+            "你觉得怎么样"
+          ],
+          "input": "6458333936639264",
+          "first": "你觉得怎么样",
+          "top1_match": true
+        },
+        {
+          "id": "questions_26",
+          "group": "everyday",
+          "pinyin": "zhe shi zen me hui shi",
+          "expected": [
+            "这是怎么回事"
+          ],
+          "input": "94374493663484744",
+          "first": "这是怎么回事",
+          "top1_match": true
+        },
+        {
+          "id": "questions_27",
+          "group": "everyday",
+          "pinyin": "ni neng ting dao ma",
+          "expected": [
+            "你能听到吗"
+          ],
+          "input": "646364846432662",
+          "first": "你能听到吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_28",
+          "group": "everyday",
+          "pinyin": "wo ying gai qu na li",
+          "expected": [
+            "我应该去哪里"
+          ],
+          "input": "969464424786254",
+          "first": "我应该去哪里",
+          "top1_match": true
+        },
+        {
+          "id": "questions_29",
+          "group": "everyday",
+          "pinyin": "hai you bie de ban fa ma",
+          "expected": [
+            "还有别的办法吗"
+          ],
+          "input": "424968243332263262",
+          "first": "还有别的办法吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_30",
+          "group": "everyday",
+          "pinyin": "wei shen me zhe me man",
+          "expected": [
+            "为什么这么慢"
+          ],
+          "input": "93474366394363626",
+          "first": "为什么这么难",
+          "top1_match": false
+        },
+        {
+          "id": "negation_31",
+          "group": "everyday",
+          "pinyin": "wo jin tian bu qu le",
+          "expected": [
+            "我今天不去了"
+          ],
+          "input": "965468426287853",
+          "first": "我今天不去了",
+          "top1_match": true
+        },
+        {
+          "id": "negation_32",
+          "group": "everyday",
+          "pinyin": "zhe ge bu shi wo de",
+          "expected": [
+            "这个不是我的"
+          ],
+          "input": "94343287449633",
+          "first": "这个不是我的",
+          "top1_match": true
+        },
+        {
+          "id": "negation_33",
+          "group": "everyday",
+          "pinyin": "wo hai mei you shou dao",
+          "expected": [
+            "我还没有收到"
+          ],
+          "input": "964246349687468326",
+          "first": "我还没有求导",
+          "top1_match": false
+        },
+        {
+          "id": "negation_34",
+          "group": "everyday",
+          "pinyin": "xian bu yao gao su bie ren",
+          "expected": [
+            "先不要告诉别人"
+          ],
+          "input": "94262892642678243736",
+          "first": "小不要告诉别人",
+          "top1_match": false
+        },
+        {
+          "id": "negation_35",
+          "group": "everyday",
+          "pinyin": "xian zai bu yong zhao ji",
+          "expected": [
+            "现在不用着急"
+          ],
+          "input": "9426924289664942654",
+          "first": "现在不用着急",
+          "top1_match": true
+        },
+        {
+          "id": "negation_36",
+          "group": "everyday",
+          "pinyin": "wo mei ting qing chu",
+          "expected": [
+            "我没听清楚"
+          ],
+          "input": "9663484647464248",
+          "first": "我没听清楚",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_37",
+          "group": "everyday",
+          "pinyin": "yi gong duo shao qian",
+          "expected": [
+            "一共多少钱"
+          ],
+          "input": "94466438674267426",
+          "first": "一共多少钱",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_38",
+          "group": "everyday",
+          "pinyin": "wo yi jing zhuan zhang le",
+          "expected": [
+            "我已经转账了",
+            "我已经转帐了"
+          ],
+          "input": "96945464948269426453",
+          "first": "我已经转向了",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_39",
+          "group": "everyday",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "早上八点叫",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_40",
+          "group": "everyday",
+          "pinyin": "hai you shi fen zhong",
+          "expected": [
+            "还有十分钟"
+          ],
+          "input": "42496874433694664",
+          "first": "还有十分钟",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_41",
+          "group": "everyday",
+          "pinyin": "zhe ge jia ge ke yi",
+          "expected": [
+            "这个价格可以"
+          ],
+          "input": "94343542435394",
+          "first": "这个价格可议",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_42",
+          "group": "everyday",
+          "pinyin": "jin tian lai de ji ma",
+          "expected": [
+            "今天来得及吗"
+          ],
+          "input": "5468426524335462",
+          "first": "今天来得及吗",
+          "top1_match": true
+        },
+        {
+          "id": "food_43",
+          "group": "everyday",
+          "pinyin": "wan shang chi shen me",
+          "expected": [
+            "晚上吃什么"
+          ],
+          "input": "92674264244743663",
+          "first": "晚上吃什么",
+          "top1_match": true
+        },
+        {
+          "id": "food_44",
+          "group": "everyday",
+          "pinyin": "gei wo yi bei re shui",
+          "expected": [
+            "给我一杯热水"
+          ],
+          "input": "4349694234737484",
+          "first": "给我一杯热水",
+          "top1_match": true
+        },
+        {
+          "id": "food_45",
+          "group": "everyday",
+          "pinyin": "bu yao fang la jiao",
+          "expected": [
+            "不要放辣椒"
+          ],
+          "input": "289263264525426",
+          "first": "不要放辣椒",
+          "top1_match": true
+        },
+        {
+          "id": "food_46",
+          "group": "everyday",
+          "pinyin": "zhe jia dian ting hao chi",
+          "expected": [
+            "这家店挺好吃"
+          ],
+          "input": "94354234268464426244",
+          "first": "这家店挺好吃",
+          "top1_match": true
+        },
+        {
+          "id": "food_47",
+          "group": "everyday",
+          "pinyin": "wo xiang dian ge wai mai",
+          "expected": [
+            "我想点个外卖"
+          ],
+          "input": "9694264342643924624",
+          "first": "我想点个外卖",
+          "top1_match": true
+        },
+        {
+          "id": "food_48",
+          "group": "everyday",
+          "pinyin": "wo men chu qu chi ba",
+          "expected": [
+            "我们出去吃吧"
+          ],
+          "input": "966362487824422",
+          "first": "我们出去吃吧",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_49",
+          "group": "everyday",
+          "pinyin": "wo zai lou xia deng ni",
+          "expected": [
+            "我在楼下等你"
+          ],
+          "input": "96924568942336464",
+          "first": "我在楼下等你",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_50",
+          "group": "everyday",
+          "pinyin": "di zhi fa gei wo yi xia",
+          "expected": [
+            "地址发给我一下"
+          ],
+          "input": "34944324349694942",
+          "first": "地址发给我一下",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_51",
+          "group": "everyday",
+          "pinyin": "di tie hai you ji zhan",
+          "expected": [
+            "地铁还有几站"
+          ],
+          "input": "34843424968549426",
+          "first": "地铁还有极限",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_52",
+          "group": "everyday",
+          "pinyin": "ni dao jia gao su wo",
+          "expected": [
+            "你到家告诉我"
+          ],
+          "input": "643265424267896",
+          "first": "你单价告诉我",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_53",
+          "group": "everyday",
+          "pinyin": "lu shang zhu yi an quan",
+          "expected": [
+            "路上注意安全"
+          ],
+          "input": "587426494894267826",
+          "first": "路上注意安全",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_54",
+          "group": "everyday",
+          "pinyin": "wo zhao bu dao ru kou",
+          "expected": [
+            "我找不到入口"
+          ],
+          "input": "9694262832678568",
+          "first": "我找不到入口",
+          "top1_match": true
+        },
+        {
+          "id": "social_55",
+          "group": "everyday",
+          "pinyin": "xin ku ni le",
+          "expected": [
+            "辛苦你了"
+          ],
+          "input": "946586453",
+          "first": "辛苦你了",
+          "top1_match": true
+        },
+        {
+          "id": "social_56",
+          "group": "everyday",
+          "pinyin": "zhe jian shi jiao gei wo",
+          "expected": [
+            "这件事交给我"
+          ],
+          "input": "9435426744542643496",
+          "first": "这件事交给我",
+          "top1_match": true
+        },
+        {
+          "id": "social_57",
+          "group": "everyday",
+          "pinyin": "fang bian de shi hou hui fu wo",
+          "expected": [
+            "方便的时候回复我"
+          ],
+          "input": "32642426337444684843896",
+          "first": "方便的时候回复我",
+          "top1_match": true
+        },
+        {
+          "id": "social_58",
+          "group": "everyday",
+          "pinyin": "sheng ri kuai le",
+          "expected": [
+            "生日快乐"
+          ],
+          "input": "7436474582453",
+          "first": "生日快乐",
+          "top1_match": true
+        },
+        {
+          "id": "social_59",
+          "group": "everyday",
+          "pinyin": "zhu ni yi qie shun li",
+          "expected": [
+            "祝你一切顺利"
+          ],
+          "input": "9486494743748654",
+          "first": "祝你一切顺利",
+          "top1_match": true
+        },
+        {
+          "id": "social_60",
+          "group": "everyday",
+          "pinyin": "xia ci you ji hui zai liao",
+          "expected": [
+            "下次有机会再聊"
+          ],
+          "input": "94224968544849245426",
+          "first": "下次有机会外键",
+          "top1_match": false
+        },
+        {
+          "id": "tech_61",
+          "group": "tech",
+          "pinyin": "shu ju ku shi wu",
+          "expected": [
+            "数据库事务"
+          ],
+          "input": "748585874498",
+          "first": "数据库事务",
+          "top1_match": true
+        },
+        {
+          "id": "tech_62",
+          "group": "tech",
+          "pinyin": "shi jian fu za du",
+          "expected": [
+            "时间复杂度"
+          ],
+          "input": "7445426389238",
+          "first": "时间复杂度",
+          "top1_match": true
+        },
+        {
+          "id": "tech_63",
+          "group": "tech",
+          "pinyin": "xiang liang shu ju ku",
+          "expected": [
+            "向量数据库"
+          ],
+          "input": "94264542647485858",
+          "first": "向量数据库",
+          "top1_match": true
+        },
+        {
+          "id": "tech_64",
+          "group": "tech",
+          "pinyin": "ti du xia jiang",
+          "expected": [
+            "梯度下降"
+          ],
+          "input": "843894254264",
+          "first": "梯度下降",
+          "top1_match": true
+        },
+        {
+          "id": "tech_65",
+          "group": "tech",
+          "pinyin": "duo tou zhu yi li",
+          "expected": [
+            "多头注意力"
+          ],
+          "input": "3868689489454",
+          "first": "多头注意力",
+          "top1_match": true
+        },
+        {
+          "id": "tech_66",
+          "group": "tech",
+          "pinyin": "xian xing dai shu",
+          "expected": [
+            "线性代数"
+          ],
+          "input": "94269464324748",
+          "first": "线性代数",
+          "top1_match": true
+        },
+        {
+          "id": "tech_67",
+          "group": "tech",
+          "pinyin": "er cha sou suo shu",
+          "expected": [
+            "二叉搜索树"
+          ],
+          "input": "37242768786748",
+          "first": "二叉搜索树",
+          "top1_match": true
+        },
+        {
+          "id": "tech_68",
+          "group": "tech",
+          "pinyin": "fu zai jun heng",
+          "expected": [
+            "负载均衡"
+          ],
+          "input": "389245864364",
+          "first": "负载均衡",
+          "top1_match": true
+        },
+        {
+          "id": "tech_69",
+          "group": "tech",
+          "pinyin": "fu li ye bian huan",
+          "expected": [
+            "傅里叶变换"
+          ],
+          "input": "38549324264826",
+          "first": "傅里叶变换",
+          "top1_match": true
+        },
+        {
+          "id": "tech_70",
+          "group": "tech",
+          "pinyin": "dong tai gui hua",
+          "expected": [
+            "动态规划"
+          ],
+          "input": "3664824484482",
+          "first": "动态规划",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_71",
+          "group": "prior_user",
+          "pinyin": "ha ha ha",
+          "expected": [
+            "哈哈哈"
+          ],
+          "input": "424242",
+          "first": "哈哈哈",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_72",
+          "group": "prior_user",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_73",
+          "group": "prior_user",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这跟毁了",
+          "top1_match": false
+        }
+      ]
+    },
+    "wanxiang_lite": {
+      "summary": {
+        "everyday": {
+          "total": 60,
+          "top1": 38,
+          "top7": 38
+        },
+        "tech": {
+          "total": 10,
+          "top1": 10,
+          "top7": 10
+        },
+        "prior_user": {
+          "total": 3,
+          "top1": 2,
+          "top7": 2
+        }
+      },
+      "results": [
+        {
+          "id": "chat_01",
+          "group": "everyday",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "top1_match": true
+        },
+        {
+          "id": "chat_02",
+          "group": "everyday",
+          "pinyin": "wo gang mang wan",
+          "expected": [
+            "我刚忙完"
+          ],
+          "input": "9642646264926",
+          "first": "我刚忙完",
+          "top1_match": true
+        },
+        {
+          "id": "chat_03",
+          "group": "everyday",
+          "pinyin": "deng yi xia zai shuo",
+          "expected": [
+            "等一下再说"
+          ],
+          "input": "3364949429247486",
+          "first": "等一下再说",
+          "top1_match": true
+        },
+        {
+          "id": "chat_04",
+          "group": "everyday",
+          "pinyin": "wo ma shang hui lai",
+          "expected": [
+            "我马上回来"
+          ],
+          "input": "966274264484524",
+          "first": "我马上回来",
+          "top1_match": true
+        },
+        {
+          "id": "chat_05",
+          "group": "everyday",
+          "pinyin": "wo yi jing dao le",
+          "expected": [
+            "我已经到了"
+          ],
+          "input": "9694546432653",
+          "first": "我已经到了",
+          "top1_match": true
+        },
+        {
+          "id": "chat_06",
+          "group": "everyday",
+          "pinyin": "ni xian xiu xi ba",
+          "expected": [
+            "你先休息吧"
+          ],
+          "input": "6494269489422",
+          "first": "你站住一把",
+          "top1_match": false
+        },
+        {
+          "id": "plans_07",
+          "group": "everyday",
+          "pinyin": "ming tian yi qi qu ba",
+          "expected": [
+            "明天一起去吧"
+          ],
+          "input": "6464842694747822",
+          "first": "明天一起去吧",
+          "top1_match": true
+        },
+        {
+          "id": "plans_08",
+          "group": "everyday",
+          "pinyin": "wo men ji dian chu fa",
+          "expected": [
+            "我们几点出发"
+          ],
+          "input": "9663654342624832",
+          "first": "我们接好出发",
+          "top1_match": false
+        },
+        {
+          "id": "plans_09",
+          "group": "everyday",
+          "pinyin": "xia wu you shi jian ma",
+          "expected": [
+            "下午有时间吗"
+          ],
+          "input": "94298968744542662",
+          "first": "下午有事缴纳",
+          "top1_match": false
+        },
+        {
+          "id": "plans_10",
+          "group": "everyday",
+          "pinyin": "zhou mo you shen me an pai",
+          "expected": [
+            "周末有什么安排"
+          ],
+          "input": "94686696874366326724",
+          "first": "周末有什么安排",
+          "top1_match": true
+        },
+        {
+          "id": "plans_11",
+          "group": "everyday",
+          "pinyin": "wo ke neng wan yi dian",
+          "expected": [
+            "我可能晚一点"
+          ],
+          "input": "96536364926943426",
+          "first": "我可能早一点",
+          "top1_match": false
+        },
+        {
+          "id": "plans_12",
+          "group": "everyday",
+          "pinyin": "dao shi hou lian xi ni",
+          "expected": [
+            "到时候联系你"
+          ],
+          "input": "32674446854269464",
+          "first": "到时候建议你",
+          "top1_match": false
+        },
+        {
+          "id": "campus_13",
+          "group": "everyday",
+          "pinyin": "jin tian you ke ma",
+          "expected": [
+            "今天有课吗"
+          ],
+          "input": "54684269685362",
+          "first": "今天有课吗",
+          "top1_match": true
+        },
+        {
+          "id": "campus_14",
+          "group": "everyday",
+          "pinyin": "zuo ye hai mei xie wan",
+          "expected": [
+            "作业还没写完"
+          ],
+          "input": "98693424634943926",
+          "first": "作业还没写完",
+          "top1_match": true
+        },
+        {
+          "id": "campus_15",
+          "group": "everyday",
+          "pinyin": "tu shu guan ji dian guan men",
+          "expected": [
+            "图书馆几点关门"
+          ],
+          "input": "8874848265434264826636",
+          "first": "图书馆里店关门",
+          "top1_match": false
+        },
+        {
+          "id": "campus_16",
+          "group": "everyday",
+          "pinyin": "zhe ge wen ti zen me zuo",
+          "expected": [
+            "这个问题怎么做"
+          ],
+          "input": "943439368493663986",
+          "first": "这个问题怎么做",
+          "top1_match": true
+        },
+        {
+          "id": "campus_17",
+          "group": "everyday",
+          "pinyin": "wo zai jiao shi deng ni",
+          "expected": [
+            "我在教室等你"
+          ],
+          "input": "969245426744336464",
+          "first": "我在辽师等你",
+          "top1_match": false
+        },
+        {
+          "id": "campus_18",
+          "group": "everyday",
+          "pinyin": "ming tian kao shi jia you",
+          "expected": [
+            "明天考试加油"
+          ],
+          "input": "64648426526744542968",
+          "first": "明天老是加油",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_19",
+          "group": "everyday",
+          "pinyin": "zhe ge hai you huo ma",
+          "expected": [
+            "这个还有货吗"
+          ],
+          "input": "9434342496848662",
+          "first": "这个还有货吗",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_20",
+          "group": "everyday",
+          "pinyin": "ke yi pian yi yi dian ma",
+          "expected": [
+            "可以便宜一点吗"
+          ],
+          "input": "539474269494342662",
+          "first": "可以便宜这干嘛",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_21",
+          "group": "everyday",
+          "pinyin": "wo xiang huan yi ge yan se",
+          "expected": [
+            "我想换一个颜色"
+          ],
+          "input": "96942644826944392673",
+          "first": "我想换一个颜色",
+          "top1_match": true
+        },
+        {
+          "id": "shopping_22",
+          "group": "everyday",
+          "pinyin": "shen me shi hou neng fa huo",
+          "expected": [
+            "什么时候能发货"
+          ],
+          "input": "743663744468636432486",
+          "first": "什么时候能打过",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_23",
+          "group": "everyday",
+          "pinyin": "ma fan bang wo tui kuan",
+          "expected": [
+            "麻烦帮我退款"
+          ],
+          "input": "623262264968845826",
+          "first": "拿到帮我退款",
+          "top1_match": false
+        },
+        {
+          "id": "shopping_24",
+          "group": "everyday",
+          "pinyin": "zhe ge chi cun tai da le",
+          "expected": [
+            "这个尺寸太大了"
+          ],
+          "input": "943432442868243253",
+          "first": "这个尺寸太大了",
+          "top1_match": true
+        },
+        {
+          "id": "questions_25",
+          "group": "everyday",
+          "pinyin": "ni jue de zen me yang",
+          "expected": [
+            "你觉得怎么样"
+          ],
+          "input": "6458333936639264",
+          "first": "你觉得怎么样",
+          "top1_match": true
+        },
+        {
+          "id": "questions_26",
+          "group": "everyday",
+          "pinyin": "zhe shi zen me hui shi",
+          "expected": [
+            "这是怎么回事"
+          ],
+          "input": "94374493663484744",
+          "first": "这是怎么回事",
+          "top1_match": true
+        },
+        {
+          "id": "questions_27",
+          "group": "everyday",
+          "pinyin": "ni neng ting dao ma",
+          "expected": [
+            "你能听到吗"
+          ],
+          "input": "646364846432662",
+          "first": "你能挺大脑",
+          "top1_match": false
+        },
+        {
+          "id": "questions_28",
+          "group": "everyday",
+          "pinyin": "wo ying gai qu na li",
+          "expected": [
+            "我应该去哪里"
+          ],
+          "input": "969464424786254",
+          "first": "我应该去哪里",
+          "top1_match": true
+        },
+        {
+          "id": "questions_29",
+          "group": "everyday",
+          "pinyin": "hai you bie de ban fa ma",
+          "expected": [
+            "还有别的办法吗"
+          ],
+          "input": "424968243332263262",
+          "first": "还有别的办法吗",
+          "top1_match": true
+        },
+        {
+          "id": "questions_30",
+          "group": "everyday",
+          "pinyin": "wei shen me zhe me man",
+          "expected": [
+            "为什么这么慢"
+          ],
+          "input": "93474366394363626",
+          "first": "为什么这么难",
+          "top1_match": false
+        },
+        {
+          "id": "negation_31",
+          "group": "everyday",
+          "pinyin": "wo jin tian bu qu le",
+          "expected": [
+            "我今天不去了"
+          ],
+          "input": "965468426287853",
+          "first": "我今天步入了",
+          "top1_match": false
+        },
+        {
+          "id": "negation_32",
+          "group": "everyday",
+          "pinyin": "zhe ge bu shi wo de",
+          "expected": [
+            "这个不是我的"
+          ],
+          "input": "94343287449633",
+          "first": "这个不是我的",
+          "top1_match": true
+        },
+        {
+          "id": "negation_33",
+          "group": "everyday",
+          "pinyin": "wo hai mei you shou dao",
+          "expected": [
+            "我还没有收到"
+          ],
+          "input": "964246349687468326",
+          "first": "我还没有求导",
+          "top1_match": false
+        },
+        {
+          "id": "negation_34",
+          "group": "everyday",
+          "pinyin": "xian bu yao gao su bie ren",
+          "expected": [
+            "先不要告诉别人"
+          ],
+          "input": "94262892642678243736",
+          "first": "先不要告诉别人",
+          "top1_match": true
+        },
+        {
+          "id": "negation_35",
+          "group": "everyday",
+          "pinyin": "xian zai bu yong zhao ji",
+          "expected": [
+            "现在不用着急"
+          ],
+          "input": "9426924289664942654",
+          "first": "现在不用战绩",
+          "top1_match": false
+        },
+        {
+          "id": "negation_36",
+          "group": "everyday",
+          "pinyin": "wo mei ting qing chu",
+          "expected": [
+            "我没听清楚"
+          ],
+          "input": "9663484647464248",
+          "first": "我没听清楚",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_37",
+          "group": "everyday",
+          "pinyin": "yi gong duo shao qian",
+          "expected": [
+            "一共多少钱"
+          ],
+          "input": "94466438674267426",
+          "first": "一共多少钱",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_38",
+          "group": "everyday",
+          "pinyin": "wo yi jing zhuan zhang le",
+          "expected": [
+            "我已经转账了",
+            "我已经转帐了"
+          ],
+          "input": "96945464948269426453",
+          "first": "我已经转向了",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_39",
+          "group": "everyday",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "早上八点叫",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_40",
+          "group": "everyday",
+          "pinyin": "hai you shi fen zhong",
+          "expected": [
+            "还有十分钟"
+          ],
+          "input": "42496874433694664",
+          "first": "还有十分钟",
+          "top1_match": true
+        },
+        {
+          "id": "money_time_41",
+          "group": "everyday",
+          "pinyin": "zhe ge jia ge ke yi",
+          "expected": [
+            "这个价格可以"
+          ],
+          "input": "94343542435394",
+          "first": "这个价格可议",
+          "top1_match": false
+        },
+        {
+          "id": "money_time_42",
+          "group": "everyday",
+          "pinyin": "jin tian lai de ji ma",
+          "expected": [
+            "今天来得及吗"
+          ],
+          "input": "5468426524335462",
+          "first": "今天来得了",
+          "top1_match": false
+        },
+        {
+          "id": "food_43",
+          "group": "everyday",
+          "pinyin": "wan shang chi shen me",
+          "expected": [
+            "晚上吃什么"
+          ],
+          "input": "92674264244743663",
+          "first": "晚上吃什么",
+          "top1_match": true
+        },
+        {
+          "id": "food_44",
+          "group": "everyday",
+          "pinyin": "gei wo yi bei re shui",
+          "expected": [
+            "给我一杯热水"
+          ],
+          "input": "4349694234737484",
+          "first": "给我下地热水",
+          "top1_match": false
+        },
+        {
+          "id": "food_45",
+          "group": "everyday",
+          "pinyin": "bu yao fang la jiao",
+          "expected": [
+            "不要放辣椒"
+          ],
+          "input": "289263264525426",
+          "first": "不要放辣椒",
+          "top1_match": true
+        },
+        {
+          "id": "food_46",
+          "group": "everyday",
+          "pinyin": "zhe jia dian ting hao chi",
+          "expected": [
+            "这家店挺好吃"
+          ],
+          "input": "94354234268464426244",
+          "first": "这家店挺好吃",
+          "top1_match": true
+        },
+        {
+          "id": "food_47",
+          "group": "everyday",
+          "pinyin": "wo xiang dian ge wai mai",
+          "expected": [
+            "我想点个外卖"
+          ],
+          "input": "9694264342643924624",
+          "first": "我想点个外卖",
+          "top1_match": true
+        },
+        {
+          "id": "food_48",
+          "group": "everyday",
+          "pinyin": "wo men chu qu chi ba",
+          "expected": [
+            "我们出去吃吧"
+          ],
+          "input": "966362487824422",
+          "first": "我们出去吃吧",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_49",
+          "group": "everyday",
+          "pinyin": "wo zai lou xia deng ni",
+          "expected": [
+            "我在楼下等你"
+          ],
+          "input": "96924568942336464",
+          "first": "我在楼下等你",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_50",
+          "group": "everyday",
+          "pinyin": "di zhi fa gei wo yi xia",
+          "expected": [
+            "地址发给我一下"
+          ],
+          "input": "34944324349694942",
+          "first": "地址发给我一下",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_51",
+          "group": "everyday",
+          "pinyin": "di tie hai you ji zhan",
+          "expected": [
+            "地铁还有几站"
+          ],
+          "input": "34843424968549426",
+          "first": "地铁还有极限",
+          "top1_match": false
+        },
+        {
+          "id": "logistics_52",
+          "group": "everyday",
+          "pinyin": "ni dao jia gao su wo",
+          "expected": [
+            "你到家告诉我"
+          ],
+          "input": "643265424267896",
+          "first": "你到家告诉我",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_53",
+          "group": "everyday",
+          "pinyin": "lu shang zhu yi an quan",
+          "expected": [
+            "路上注意安全"
+          ],
+          "input": "587426494894267826",
+          "first": "路上注意安全",
+          "top1_match": true
+        },
+        {
+          "id": "logistics_54",
+          "group": "everyday",
+          "pinyin": "wo zhao bu dao ru kou",
+          "expected": [
+            "我找不到入口"
+          ],
+          "input": "9694262832678568",
+          "first": "我找不到入口",
+          "top1_match": true
+        },
+        {
+          "id": "social_55",
+          "group": "everyday",
+          "pinyin": "xin ku ni le",
+          "expected": [
+            "辛苦你了"
+          ],
+          "input": "946586453",
+          "first": "辛苦你了",
+          "top1_match": true
+        },
+        {
+          "id": "social_56",
+          "group": "everyday",
+          "pinyin": "zhe jian shi jiao gei wo",
+          "expected": [
+            "这件事交给我"
+          ],
+          "input": "9435426744542643496",
+          "first": "这件事交给我",
+          "top1_match": true
+        },
+        {
+          "id": "social_57",
+          "group": "everyday",
+          "pinyin": "fang bian de shi hou hui fu wo",
+          "expected": [
+            "方便的时候回复我"
+          ],
+          "input": "32642426337444684843896",
+          "first": "方便的时候回复我",
+          "top1_match": true
+        },
+        {
+          "id": "social_58",
+          "group": "everyday",
+          "pinyin": "sheng ri kuai le",
+          "expected": [
+            "生日快乐"
+          ],
+          "input": "7436474582453",
+          "first": "生日快乐",
+          "top1_match": true
+        },
+        {
+          "id": "social_59",
+          "group": "everyday",
+          "pinyin": "zhu ni yi qie shun li",
+          "expected": [
+            "祝你一切顺利"
+          ],
+          "input": "9486494743748654",
+          "first": "祝你一切顺利",
+          "top1_match": true
+        },
+        {
+          "id": "social_60",
+          "group": "everyday",
+          "pinyin": "xia ci you ji hui zai liao",
+          "expected": [
+            "下次有机会再聊"
+          ],
+          "input": "94224968544849245426",
+          "first": "下次有机会再聊",
+          "top1_match": true
+        },
+        {
+          "id": "tech_61",
+          "group": "tech",
+          "pinyin": "shu ju ku shi wu",
+          "expected": [
+            "数据库事务"
+          ],
+          "input": "748585874498",
+          "first": "数据库事务",
+          "top1_match": true
+        },
+        {
+          "id": "tech_62",
+          "group": "tech",
+          "pinyin": "shi jian fu za du",
+          "expected": [
+            "时间复杂度"
+          ],
+          "input": "7445426389238",
+          "first": "时间复杂度",
+          "top1_match": true
+        },
+        {
+          "id": "tech_63",
+          "group": "tech",
+          "pinyin": "xiang liang shu ju ku",
+          "expected": [
+            "向量数据库"
+          ],
+          "input": "94264542647485858",
+          "first": "向量数据库",
+          "top1_match": true
+        },
+        {
+          "id": "tech_64",
+          "group": "tech",
+          "pinyin": "ti du xia jiang",
+          "expected": [
+            "梯度下降"
+          ],
+          "input": "843894254264",
+          "first": "梯度下降",
+          "top1_match": true
+        },
+        {
+          "id": "tech_65",
+          "group": "tech",
+          "pinyin": "duo tou zhu yi li",
+          "expected": [
+            "多头注意力"
+          ],
+          "input": "3868689489454",
+          "first": "多头注意力",
+          "top1_match": true
+        },
+        {
+          "id": "tech_66",
+          "group": "tech",
+          "pinyin": "xian xing dai shu",
+          "expected": [
+            "线性代数"
+          ],
+          "input": "94269464324748",
+          "first": "线性代数",
+          "top1_match": true
+        },
+        {
+          "id": "tech_67",
+          "group": "tech",
+          "pinyin": "er cha sou suo shu",
+          "expected": [
+            "二叉搜索树"
+          ],
+          "input": "37242768786748",
+          "first": "二叉搜索树",
+          "top1_match": true
+        },
+        {
+          "id": "tech_68",
+          "group": "tech",
+          "pinyin": "fu zai jun heng",
+          "expected": [
+            "负载均衡"
+          ],
+          "input": "389245864364",
+          "first": "负载均衡",
+          "top1_match": true
+        },
+        {
+          "id": "tech_69",
+          "group": "tech",
+          "pinyin": "fu li ye bian huan",
+          "expected": [
+            "傅里叶变换"
+          ],
+          "input": "38549324264826",
+          "first": "傅里叶变换",
+          "top1_match": true
+        },
+        {
+          "id": "tech_70",
+          "group": "tech",
+          "pinyin": "dong tai gui hua",
+          "expected": [
+            "动态规划"
+          ],
+          "input": "3664824484482",
+          "first": "动态规划",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_71",
+          "group": "prior_user",
+          "pinyin": "ha ha ha",
+          "expected": [
+            "哈哈哈"
+          ],
+          "input": "424242",
+          "first": "哈哈哈",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_72",
+          "group": "prior_user",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "top1_match": true
+        },
+        {
+          "id": "prior_user_73",
+          "group": "prior_user",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这个你踢了",
+          "top1_match": false
+        }
+      ]
+    }
+  }
+}
