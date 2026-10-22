@@ -5,9 +5,10 @@
 # 避免直接修改上游配置文件。
 
 patch:
-  # 仅启用全拼方案；九键和各类双拼不显示在方案菜单中。
+  # 全拼仍放在首位；同时启用手机九键，供紫毫切换九键布局时使用。
   schema_list:
     - schema: rime_ice
+    - schema: t9
   menu/page_size: 7
   ascii_composer/switch_key/Caps_Lock: commit_code
   ascii_composer/switch_key/Shift_L: noop

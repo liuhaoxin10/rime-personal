@@ -13,6 +13,7 @@ ROOT_FILES = {
     "default.yaml",
     "default.custom.yaml",
     "rime_ice.custom.yaml",
+    "t9.custom.yaml",
     "symbols_v.yaml",
     "symbols_caps_v.yaml",
 }

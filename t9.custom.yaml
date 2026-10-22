@@ -1,0 +1,6 @@
+# Rime schema custom settings
+# encoding: utf-8
+# 九键与全拼使用同一份个人组合词典。
+
+patch:
+  translator/dictionary: custom_rime_ice

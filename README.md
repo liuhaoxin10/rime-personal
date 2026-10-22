@@ -4,6 +4,14 @@
 
 ## 手机下载与订阅
 
+### 紫毫（当前使用的手机输入法）
+
+GitHub 仓库填写 `https://github.com/liuhaoxin10/rime-personal`，使用默认分支 `main`，配置目录为根目录。已有订阅可在「方案 → 我的 RIME 方案 → 立即更新」拉取新配置，再回到键盘切换九键或 26 键。更新后如仍显示旧候选，切换到其他键盘再切回来。
+
+本仓库已启用 `rime_ice` 全拼及 `t9` 九键，九键使用[紫毫官方公开的配置](https://hareime.com/rime-ice)，并挂载相同的个人词库。紫毫点按九键会输入数字编码，因此只切换成九键外观、却未启用 `t9` 方案时，无法正常进行中文九键输入。九键的中英混输依赖附带的 `melt_eng_t9.schema.yaml`。
+
+### ZIP 导入
+
 支持从网络下载 ZIP 方案的输入法，可以填写这个固定地址：
 
 ```text
@@ -20,7 +28,7 @@ Release 中的 ZIP 不含外层目录，解压后直接得到 Rime 配置文件�
 
 ## 当前配置
 
-默认启用雾凇全拼，主词典为 `custom_rime_ice`，包含原雾凇基础词库和四套个人专题词库：
+默认方案列表包含雾凇全拼和中文九键，全拼仍放在首位；两个方案的主词典均为 `custom_rime_ice`，包含原雾凇基础词库和四套个人专题词库：
 
 | 词库 | 词条数 |
 | --- | ---: |
@@ -32,13 +40,13 @@ Release 中的 ZIP 不含外层目录，解压后直接得到 Rime 配置文件�
 
 同时保留英文、中英混输、部件拆字、Emoji、Lua 功能、自定义短语，以及「公式」置顶和 `dain → dian` 的容错配置。需要支持 Lua 与 OpenCC 的 Rime 客户端。
 
-当前个人词库补丁只应用于全拼。仓库中的双拼和九键文件保留原配置；如果要使用这些方案，需要另行启用方案，并将其 `translator/dictionary` 设置为 `custom_rime_ice`。
+个人词库补丁分别保存在 `rime_ice.custom.yaml`（全拼）和 `t9.custom.yaml`（九键）。仓库中的双拼文件保留原配置；如果要使用双拼，需要另行启用方案，并将其 `translator/dictionary` 设置为 `custom_rime_ice`。
 
-发布前已在独立临时目录用本机 Rime 部署器完成编译，确认主词典和英文词典可以生成。手机端仍需导入后部署，尚未做手机实机验证。
+发布前已在独立临时目录完成编译及真实按键测试：全拼 `nihao` →「你好」、`gongshi` →「公式」；九键 `42633` →「好的」、`64426` →「你好」、`73646649446364` →「人工智能」。手机端仍需更新后部署，尚未做手机实机验证。
 
 ## 本机更新和打包
 
-词库源码位于 `cn_dicts/`，组合词库入口是 `custom_rime_ice.dict.yaml`，个性化设置保存在 `rime_ice.custom.yaml` 和 `default.custom.yaml`。
+词库源码位于 `cn_dicts/`，组合词库入口是 `custom_rime_ice.dict.yaml`，个性化设置保存在 `rime_ice.custom.yaml`、`t9.custom.yaml` 和 `default.custom.yaml`。
 
 在仓库目录运行以下命令生成手机导入包：
 
@@ -51,7 +59,7 @@ python3 tools/package.py
 日常修改后的发布步骤：
 
 ```sh
-git add cn_dicts custom_rime_ice.dict.yaml rime_ice.custom.yaml default.custom.yaml
+git add cn_dicts custom_rime_ice.dict.yaml rime_ice.custom.yaml t9.custom.yaml default.custom.yaml
 git commit -m "Update personal Rime dictionaries"
 git push origin main
 python3 tools/package.py
