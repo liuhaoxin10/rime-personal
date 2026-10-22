@@ -20,6 +20,11 @@
 
 # Keep learned vocabulary, local state, generated files, and secrets private.
 *.userdb*
+build/
+sync/
+backups/
+installation.yaml
+user.yaml
 *.log
 *.bin
 .DS_Store

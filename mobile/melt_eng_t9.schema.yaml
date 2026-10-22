@@ -1,0 +1,48 @@
+# Hare：英文词的九宫格索引，只给 t9 的次翻译器用，不出现在方案列表里。
+#
+# 用的是 melt_eng 的词典，拼写规则换成「只留一个数字串」：xform 逐条改写而不保留
+# 原形，所以每个词只进一个编码，索引 melt_eng_t9.prism.bin 约 1 MB。
+# 先前把同样的映射写成 derive 加进 melt_eng 自己的规则里，derive 会保留每一步的
+# 中间形态（wifi → wi3i → w434 → 9434 全都进索引），melt_eng.prism.bin 从 3 MB
+# 涨到 84 MB，「文稿与数据」随之涨了 80 多兆。
+schema:
+  schema_id: melt_eng_t9
+  name: 英文九键索引
+  version: "1"
+  description: |
+    仅作为 t9 的英文次翻译器拼写索引，不单独使用。
+
+engine:
+  processors:
+    - ascii_composer
+    - speller
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - abc_segmentor
+    - fallback_segmentor
+  translators:
+    - table_translator
+
+speller:
+  alphabet: '0123456789'
+  algebra:
+    # 没有字母的词条（纯数字、纯符号）没有九宫格编码。
+    - "erase/^[^A-Za-z]*$/"
+    # Wi-Fi、Apple TV+ 这类写法按字母取码。
+    - "xform/[^A-Za-z]//"
+    # 顺序与 t9.schema.yaml 里的拼音映射一致，大小写同键。
+    - "xform/[abcABC]/2/"
+    - "xform/[defDEF]/3/"
+    - "xform/[ghiGHI]/4/"
+    - "xform/[jklJKL]/5/"
+    - "xform/[mnoMNO]/6/"
+    - "xform/[pqrsPQRS]/7/"
+    - "xform/[tuvTUV]/8/"
+    - "xform/[wxyzWXYZ]/9/"
+
+translator:
+  dictionary: melt_eng
+  prism: melt_eng_t9
+  enable_completion: false

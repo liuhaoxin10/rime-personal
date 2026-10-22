@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Package either the Zihao mobile vocabulary overlay or desktop Rime source."""
+"""Package the independent Zihao mobile or desktop Rime source profile."""
 
 import argparse
 from pathlib import Path
@@ -14,6 +14,7 @@ ROOT_FILES = {
     "default.yaml",
     "default.custom.yaml",
     "rime_ice.custom.yaml",
+    "melt_eng.custom.yaml",
     "t9.custom.yaml",
     "symbols_v.yaml",
     "symbols_caps_v.yaml",

@@ -1,6 +1,5 @@
-# 紫毫专用词库补丁。键盘、全拼、九键和整句模型均由紫毫管理。
+# Hare statically merges librime-lua into its iOS XCFramework, so the
+# upstream rime-ice processors, translators and filters can remain enabled.
 patch:
-  translator/dictionary: custom_rime_ice
-  # 保留紫毫官方补丁的中英混输设置。
   melt_eng/enable_completion: false
   cn_en/enable_completion: false

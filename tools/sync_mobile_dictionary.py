@@ -7,13 +7,13 @@ import shutil
 
 ROOT = Path(__file__).resolve().parents[1]
 MOBILE = ROOT / "mobile"
+PERSONAL_TABLES = ("programming_cs", "data_structures", "ai_ml", "math")
 
 
 def main():
     target = MOBILE / "cn_dicts"
     target.mkdir(parents=True, exist_ok=True)
-    paths = sorted((ROOT / "cn_dicts").glob("*.dict.yaml"))
-    paths.append(ROOT / "custom_rime_ice.dict.yaml")
+    paths = [ROOT / "cn_dicts" / f"{name}.dict.yaml" for name in PERSONAL_TABLES]
     for path in paths:
         if path.is_symlink():
             raise ValueError(f"Dictionary must be an ordinary file: {path}")

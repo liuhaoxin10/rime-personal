@@ -1,0 +1,5 @@
+# 手机独立配置；不修改电脑方案。九键优先，全拼仍可切换。
+patch:
+  schema_list:
+    - schema: t9
+    - schema: rime_ice

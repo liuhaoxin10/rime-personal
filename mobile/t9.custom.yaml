@@ -1,4 +1,3 @@
-# 紫毫九键专用：挂载个人词库与快捷短语，保留客户端的九键算法和模型。
+# 手机九键快捷短语；保留紫毫官方九键、词典名和模型设置。
 patch:
-  translator/dictionary: custom_rime_ice
   custom_phrase/user_dict: personal_phrase_t9
