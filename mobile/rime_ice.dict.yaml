@@ -5,7 +5,7 @@
 
 ---
 name: rime_ice
-version: "2026-10-22.mobile.3"
+version: "2026-10-23.mobile.1"
 import_tables:
   - cn_dicts/8105     # 字表
   # - cn_dicts/41448  # 大字表（按需启用）（启用时和 8105 同时启用并放在 8105 下面）
@@ -25,6 +25,8 @@ import_tables:
   - cn_dicts/data_structures
   - cn_dicts/ai_ml
   - cn_dicts/math
+  - cn_dicts/personal_readings  # 手机习惯读音，仅给指定词增加别名
+  - cn_dicts/personal_chat      # 手机日常搭配，参与正常组句
 
   # 建议把扩展词库放到下面，有重复词条时，最上面的权重生效
   # - mydict1           # 挂载配置目录下的 mydict1.dict.yaml 词库文件

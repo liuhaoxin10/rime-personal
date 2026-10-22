@@ -1,0 +1,12 @@
+# Rime dictionary
+# encoding: utf-8
+# 手机日常搭配补充，参与正常组句；不改动上游词表。
+---
+name: personal_chat
+version: "2026-10-23"
+sort: by_weight
+...
+
+很贵了	hen gui le	1000
+明天早上再说	ming tian zao shang zai shuo	100
+明天晚上再说	ming tian wan shang zai shuo	100

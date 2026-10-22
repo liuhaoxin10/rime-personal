@@ -1,0 +1,171 @@
+{
+  "date": "2026-10-23",
+  "description": "User-reported first candidates from a 20-case full-Pinyin T9 exercise in Zihao on iPhone. Exact phone profile version and learned state are not confirmed. This phone test was recorded before the v2026.10.23 changes were published and does not evaluate those changes.",
+  "phone_summary": {
+    "total": 20,
+    "exact_top1": 18
+  },
+  "cases": [
+    {
+      "id": "phone_01",
+      "pinyin": "ni zai gan shen me",
+      "expected": [
+        "你在干什么"
+      ],
+      "phone_first": "你在干什么"
+    },
+    {
+      "id": "phone_02",
+      "pinyin": "zhe hen gui le",
+      "expected": [
+        "这很贵了"
+      ],
+      "phone_first": "这都会了"
+    },
+    {
+      "id": "phone_03",
+      "pinyin": "zhe ge tai gui le",
+      "expected": [
+        "这个太贵了"
+      ],
+      "phone_first": "这个太贵了"
+    },
+    {
+      "id": "phone_04",
+      "pinyin": "zen me la",
+      "expected": [
+        "怎么啦"
+      ],
+      "phone_first": "怎么啦"
+    },
+    {
+      "id": "phone_05",
+      "pinyin": "mei guan xi",
+      "expected": [
+        "没关系"
+      ],
+      "phone_first": "没关系"
+    },
+    {
+      "id": "phone_06",
+      "pinyin": "deng wo yi xia",
+      "expected": [
+        "等我一下"
+      ],
+      "phone_first": "等我一下"
+    },
+    {
+      "id": "phone_07",
+      "pinyin": "wo ma shang dao le",
+      "expected": [
+        "我马上到了"
+      ],
+      "phone_first": "我马上到了"
+    },
+    {
+      "id": "phone_08",
+      "pinyin": "ni chi fan le ma",
+      "expected": [
+        "你吃饭了吗"
+      ],
+      "phone_first": "你吃饭了吗"
+    },
+    {
+      "id": "phone_09",
+      "pinyin": "jin tian wan shang chi shen me",
+      "expected": [
+        "今天晚上吃什么"
+      ],
+      "phone_first": "今天晚上吃什么"
+    },
+    {
+      "id": "phone_10",
+      "pinyin": "ni shen me shi hou hui lai",
+      "expected": [
+        "你什么时候回来"
+      ],
+      "phone_first": "你什么时候回来"
+    },
+    {
+      "id": "phone_11",
+      "pinyin": "wo xian qu xi zao le",
+      "expected": [
+        "我先去洗澡了"
+      ],
+      "phone_first": "我先去洗澡了"
+    },
+    {
+      "id": "phone_12",
+      "pinyin": "ming tian zao shang zai shuo",
+      "expected": [
+        "明天早上再说"
+      ],
+      "phone_first": "明天晚上再说",
+      "same_t9_code_alternative": "明天晚上再说"
+    },
+    {
+      "id": "phone_13",
+      "pinyin": "zhe ge duo shao qian",
+      "expected": [
+        "这个多少钱"
+      ],
+      "phone_first": "这个多少钱"
+    },
+    {
+      "id": "phone_14",
+      "pinyin": "ni ba di zhi fa gei wo",
+      "expected": [
+        "你把地址发给我"
+      ],
+      "phone_first": "你把地址发给我"
+    },
+    {
+      "id": "phone_15",
+      "pinyin": "wo mei you ting qing chu",
+      "expected": [
+        "我没有听清楚"
+      ],
+      "phone_first": "我没有听清楚"
+    },
+    {
+      "id": "phone_16",
+      "pinyin": "zhe ge wen ti zen me jie jue",
+      "expected": [
+        "这个问题怎么解决"
+      ],
+      "phone_first": "这个问题怎么解决"
+    },
+    {
+      "id": "phone_17",
+      "pinyin": "wo zui jin you dian mang",
+      "expected": [
+        "我最近有点忙"
+      ],
+      "phone_first": "我最近有点忙"
+    },
+    {
+      "id": "phone_18",
+      "pinyin": "wo gang xia ke",
+      "expected": [
+        "我刚下课"
+      ],
+      "phone_first": "我刚下课"
+    },
+    {
+      "id": "phone_19",
+      "pinyin": "wo yi jing ti jiao zuo ye le",
+      "expected": [
+        "我已经提交作业了"
+      ],
+      "phone_first": "我已经提交作业了"
+    },
+    {
+      "id": "phone_20",
+      "pinyin": "wo men ming tian yi qi qu",
+      "expected": [
+        "我们明天一起去"
+      ],
+      "phone_first": "我们明天一起去"
+    }
+  ]
+}

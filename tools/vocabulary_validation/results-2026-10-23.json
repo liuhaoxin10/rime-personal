@@ -1,0 +1,1521 @@
+{
+  "date": "2026-10-23",
+  "status": "v2026.10.23 release content; iPhone retest pending",
+  "method": "Independent deployment of the packaged mobile profile with local librime 1.16.0 and Lua. No phone touch correction or phone learning state. Exact target matching on fixed cases is not a general typing-accuracy estimate.",
+  "changes": [
+    {
+      "word": "很贵了",
+      "pinyin": "hen gui le",
+      "weight": 1000
+    },
+    {
+      "word": "明天早上再说",
+      "pinyin": "ming tian zao shang zai shuo",
+      "weight": 100
+    },
+    {
+      "word": "明天晚上再说",
+      "pinyin": "ming tian wan shang zai shuo",
+      "weight": 100
+    }
+  ],
+  "reported_phone_summary": {
+    "total": 20,
+    "exact_top1": 18
+  },
+  "local_phone_exercise": {
+    "before": {
+      "method": "Clean temporary local Rime T9 session; no phone touch correction or phone learning state. Exact target matching, not general accuracy.",
+      "corpus_sha256": "b12201ec1844e16c684627b41b83789de52c13bbbd54b6c3561646e26df6b8f1",
+      "total": 20,
+      "top1": 17,
+      "results": [
+        {
+          "id": "phone_01",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "phone_first": "你在干什么",
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "candidates": [
+            "你在干什么",
+            "你在搞什么",
+            "你在干什么呀",
+            "你在干什么啊",
+            "你在搞什么啊"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_02",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "phone_first": "这都会了",
+          "input": "94343648453",
+          "first": "这冻毁了",
+          "candidates": [
+            "这冻毁了",
+            "这更",
+            "协亨",
+            "蟹鸻",
+            "这很"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "phone_03",
+          "pinyin": "zhe ge tai gui le",
+          "expected": [
+            "这个太贵了"
+          ],
+          "phone_first": "这个太贵了",
+          "input": "9434382448453",
+          "first": "这个太贵了",
+          "candidates": [
+            "这个太贵了",
+            "这个",
+            "这和",
+            "折合",
+            "协和"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_04",
+          "pinyin": "zen me la",
+          "expected": [
+            "怎么啦"
+          ],
+          "phone_first": "怎么啦",
+          "input": "9366352",
+          "first": "怎么啦",
+          "candidates": [
+            "怎么啦",
+            "怎么拉",
+            "怎么",
+            "夜魔",
+            "液膜"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_05",
+          "pinyin": "mei guan xi",
+          "expected": [
+            "没关系"
+          ],
+          "phone_first": "没关系",
+          "input": "634482694",
+          "first": "没关系",
+          "candidates": [
+            "没关系",
+            "美观",
+            "内环",
+            "没换",
+            "内关"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_06",
+          "pinyin": "deng wo yi xia",
+          "expected": [
+            "等我一下"
+          ],
+          "phone_first": "等我一下",
+          "input": "33649694942",
+          "first": "等我一下",
+          "candidates": [
+            "等我一下",
+            "等我一下嗷",
+            "等我",
+            "蜂窝",
+            "丰沃"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_07",
+          "pinyin": "wo ma shang dao le",
+          "expected": [
+            "我马上到了"
+          ],
+          "phone_first": "我马上到了",
+          "input": "96627426432653",
+          "first": "我马上到了",
+          "candidates": [
+            "我马上到了",
+            "我马上到",
+            "我马上",
+            "我拿上",
+            "我那"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_08",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "phone_first": "你吃饭了吗",
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "candidates": [
+            "你吃饭了吗",
+            "你迟到了",
+            "你吃饭了",
+            "你迟到",
+            "你吃饭"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_09",
+          "pinyin": "jin tian wan shang chi shen me",
+          "expected": [
+            "今天晚上吃什么"
+          ],
+          "phone_first": "今天晚上吃什么",
+          "input": "546842692674264244743663",
+          "first": "今天晚上吃什么",
+          "candidates": [
+            "今天晚上吃什么",
+            "今天晚上",
+            "今天早上",
+            "九号晚上",
+            "六号晚上"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_10",
+          "pinyin": "ni shen me shi hou hui lai",
+          "expected": [
+            "你什么时候回来"
+          ],
+          "phone_first": "你什么时候回来",
+          "input": "64743663744468484524",
+          "first": "你什么时候回来",
+          "candidates": [
+            "你什么时候回来",
+            "你什么时候回来啊",
+            "你什么时候",
+            "你什么事",
+            "你什么时"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_11",
+          "pinyin": "wo xian qu xi zao le",
+          "expected": [
+            "我先去洗澡了"
+          ],
+          "phone_first": "我先去洗澡了",
+          "input": "969426789492653",
+          "first": "我先去洗澡了",
+          "candidates": [
+            "我先去洗澡了",
+            "我先去洗澡",
+            "我先去",
+            "总校区",
+            "我校"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_12",
+          "pinyin": "ming tian zao shang zai shuo",
+          "expected": [
+            "明天早上再说"
+          ],
+          "phone_first": "明天晚上再说",
+          "same_t9_code_alternative": "明天晚上再说",
+          "input": "64648426926742649247486",
+          "first": "明天晚上再说",
+          "candidates": [
+            "明天晚上再说",
+            "明天晚上",
+            "明天早上",
+            "明天早起",
+            "明天要"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "phone_13",
+          "pinyin": "zhe ge duo shao qian",
+          "expected": [
+            "这个多少钱"
+          ],
+          "phone_first": "这个多少钱",
+          "input": "9434338674267426",
+          "first": "这个多少钱",
+          "candidates": [
+            "这个多少钱",
+            "这个多",
+            "这个度",
+            "洗地的",
+            "这个"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_14",
+          "pinyin": "ni ba di zhi fa gei wo",
+          "expected": [
+            "你把地址发给我"
+          ],
+          "phone_first": "你把地址发给我",
+          "input": "6422349443243496",
+          "first": "你把地址发给我",
+          "candidates": [
+            "你把地址发给我",
+            "泥巴地",
+            "你把",
+            "泥巴",
+            "你爸"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_15",
+          "pinyin": "wo mei you ting qing chu",
+          "expected": [
+            "我没有听清楚"
+          ],
+          "phone_first": "我没有听清楚",
+          "input": "9663496884647464248",
+          "first": "我没有听清楚",
+          "candidates": [
+            "我没有听清楚",
+            "我没有",
+            "总没有",
+            "用地",
+            "我没"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_16",
+          "pinyin": "zhe ge wen ti zen me jie jue",
+          "expected": [
+            "这个问题怎么解决"
+          ],
+          "phone_first": "这个问题怎么解决",
+          "input": "943439368493663543583",
+          "first": "这个问题怎么解决",
+          "candidates": [
+            "这个问题怎么解决",
+            "这个问题",
+            "这个夜",
+            "这个也",
+            "这个"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_17",
+          "pinyin": "wo zui jin you dian mang",
+          "expected": [
+            "我最近有点忙"
+          ],
+          "phone_first": "我最近有点忙",
+          "input": "9698454696834266264",
+          "first": "我最近有点忙",
+          "candidates": [
+            "我最近有点忙",
+            "我最近",
+            "我最",
+            "走嘴",
+            "我嘴"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_18",
+          "pinyin": "wo gang xia ke",
+          "expected": [
+            "我刚下课"
+          ],
+          "phone_first": "我刚下课",
+          "input": "96426494253",
+          "first": "我刚下了",
+          "candidates": [
+            "我刚下了",
+            "我刚",
+            "总行",
+            "总纲",
+            "邹冈"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "phone_19",
+          "pinyin": "wo yi jing ti jiao zuo ye le",
+          "expected": [
+            "我已经提交作业了"
+          ],
+          "phone_first": "我已经提交作业了",
+          "input": "969454648454269869353",
+          "first": "我已经提交作业了",
+          "candidates": [
+            "我已经提交作业了",
+            "我已经",
+            "我一惊",
+            "邹自景",
+            "总资金"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_20",
+          "pinyin": "wo men ming tian yi qi qu",
+          "expected": [
+            "我们明天一起去"
+          ],
+          "phone_first": "我们明天一起去",
+          "input": "9663664648426947478",
+          "first": "我们明天一起去",
+          "candidates": [
+            "我们明天一起去",
+            "涌动",
+            "永动",
+            "我们",
+            "宗门"
+          ],
+          "top1_match": true
+        }
+      ]
+    },
+    "after": {
+      "method": "Clean temporary local Rime T9 session; no phone touch correction or phone learning state. Exact target matching, not general accuracy.",
+      "corpus_sha256": "b12201ec1844e16c684627b41b83789de52c13bbbd54b6c3561646e26df6b8f1",
+      "total": 20,
+      "top1": 18,
+      "results": [
+        {
+          "id": "phone_01",
+          "pinyin": "ni zai gan shen me",
+          "expected": [
+            "你在干什么"
+          ],
+          "phone_first": "你在干什么",
+          "input": "64924426743663",
+          "first": "你在干什么",
+          "candidates": [
+            "你在干什么",
+            "你在搞什么",
+            "你在干什么呀",
+            "你在干什么啊",
+            "你在搞什么啊"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_02",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "phone_first": "这都会了",
+          "input": "94343648453",
+          "first": "这很贵了",
+          "candidates": [
+            "这很贵了",
+            "这更",
+            "协亨",
+            "蟹鸻",
+            "这很"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_03",
+          "pinyin": "zhe ge tai gui le",
+          "expected": [
+            "这个太贵了"
+          ],
+          "phone_first": "这个太贵了",
+          "input": "9434382448453",
+          "first": "这个太贵了",
+          "candidates": [
+            "这个太贵了",
+            "这个",
+            "这和",
+            "折合",
+            "协和"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_04",
+          "pinyin": "zen me la",
+          "expected": [
+            "怎么啦"
+          ],
+          "phone_first": "怎么啦",
+          "input": "9366352",
+          "first": "怎么啦",
+          "candidates": [
+            "怎么啦",
+            "怎么拉",
+            "怎么",
+            "夜魔",
+            "液膜"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_05",
+          "pinyin": "mei guan xi",
+          "expected": [
+            "没关系"
+          ],
+          "phone_first": "没关系",
+          "input": "634482694",
+          "first": "没关系",
+          "candidates": [
+            "没关系",
+            "美观",
+            "内环",
+            "没换",
+            "内关"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_06",
+          "pinyin": "deng wo yi xia",
+          "expected": [
+            "等我一下"
+          ],
+          "phone_first": "等我一下",
+          "input": "33649694942",
+          "first": "等我一下",
+          "candidates": [
+            "等我一下",
+            "等我一下嗷",
+            "等我",
+            "蜂窝",
+            "丰沃"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_07",
+          "pinyin": "wo ma shang dao le",
+          "expected": [
+            "我马上到了"
+          ],
+          "phone_first": "我马上到了",
+          "input": "96627426432653",
+          "first": "我马上到了",
+          "candidates": [
+            "我马上到了",
+            "我马上到",
+            "我马上",
+            "我拿上",
+            "我那"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_08",
+          "pinyin": "ni chi fan le ma",
+          "expected": [
+            "你吃饭了吗"
+          ],
+          "phone_first": "你吃饭了吗",
+          "input": "642443265362",
+          "first": "你吃饭了吗",
+          "candidates": [
+            "你吃饭了吗",
+            "你迟到了",
+            "你吃饭了",
+            "你迟到",
+            "你吃饭"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_09",
+          "pinyin": "jin tian wan shang chi shen me",
+          "expected": [
+            "今天晚上吃什么"
+          ],
+          "phone_first": "今天晚上吃什么",
+          "input": "546842692674264244743663",
+          "first": "今天晚上吃什么",
+          "candidates": [
+            "今天晚上吃什么",
+            "今天晚上",
+            "今天早上",
+            "九号晚上",
+            "六号晚上"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_10",
+          "pinyin": "ni shen me shi hou hui lai",
+          "expected": [
+            "你什么时候回来"
+          ],
+          "phone_first": "你什么时候回来",
+          "input": "64743663744468484524",
+          "first": "你什么时候回来",
+          "candidates": [
+            "你什么时候回来",
+            "你什么时候回来啊",
+            "你什么时候",
+            "你什么事",
+            "你什么时"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_11",
+          "pinyin": "wo xian qu xi zao le",
+          "expected": [
+            "我先去洗澡了"
+          ],
+          "phone_first": "我先去洗澡了",
+          "input": "969426789492653",
+          "first": "我先去洗澡了",
+          "candidates": [
+            "我先去洗澡了",
+            "我先去洗澡",
+            "我先去",
+            "总校区",
+            "我校"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_12",
+          "pinyin": "ming tian zao shang zai shuo",
+          "expected": [
+            "明天早上再说"
+          ],
+          "phone_first": "明天晚上再说",
+          "same_t9_code_alternative": "明天晚上再说",
+          "input": "64648426926742649247486",
+          "first": "明天晚上再说",
+          "candidates": [
+            "明天晚上再说",
+            "明天早上再说",
+            "明天晚上",
+            "明天早上",
+            "明天早起"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "phone_13",
+          "pinyin": "zhe ge duo shao qian",
+          "expected": [
+            "这个多少钱"
+          ],
+          "phone_first": "这个多少钱",
+          "input": "9434338674267426",
+          "first": "这个多少钱",
+          "candidates": [
+            "这个多少钱",
+            "这个多",
+            "这个度",
+            "洗地的",
+            "这个"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_14",
+          "pinyin": "ni ba di zhi fa gei wo",
+          "expected": [
+            "你把地址发给我"
+          ],
+          "phone_first": "你把地址发给我",
+          "input": "6422349443243496",
+          "first": "你把地址发给我",
+          "candidates": [
+            "你把地址发给我",
+            "泥巴地",
+            "你把",
+            "泥巴",
+            "你爸"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_15",
+          "pinyin": "wo mei you ting qing chu",
+          "expected": [
+            "我没有听清楚"
+          ],
+          "phone_first": "我没有听清楚",
+          "input": "9663496884647464248",
+          "first": "我没有听清楚",
+          "candidates": [
+            "我没有听清楚",
+            "我没有",
+            "总没有",
+            "用地",
+            "我没"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_16",
+          "pinyin": "zhe ge wen ti zen me jie jue",
+          "expected": [
+            "这个问题怎么解决"
+          ],
+          "phone_first": "这个问题怎么解决",
+          "input": "943439368493663543583",
+          "first": "这个问题怎么解决",
+          "candidates": [
+            "这个问题怎么解决",
+            "这个问题",
+            "这个夜",
+            "这个也",
+            "这个"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_17",
+          "pinyin": "wo zui jin you dian mang",
+          "expected": [
+            "我最近有点忙"
+          ],
+          "phone_first": "我最近有点忙",
+          "input": "9698454696834266264",
+          "first": "我最近有点忙",
+          "candidates": [
+            "我最近有点忙",
+            "我最近",
+            "我最",
+            "走嘴",
+            "我嘴"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_18",
+          "pinyin": "wo gang xia ke",
+          "expected": [
+            "我刚下课"
+          ],
+          "phone_first": "我刚下课",
+          "input": "96426494253",
+          "first": "我刚下了",
+          "candidates": [
+            "我刚下了",
+            "我刚",
+            "总行",
+            "总纲",
+            "邹冈"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "phone_19",
+          "pinyin": "wo yi jing ti jiao zuo ye le",
+          "expected": [
+            "我已经提交作业了"
+          ],
+          "phone_first": "我已经提交作业了",
+          "input": "969454648454269869353",
+          "first": "我已经提交作业了",
+          "candidates": [
+            "我已经提交作业了",
+            "我已经",
+            "我一惊",
+            "邹自景",
+            "总资金"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "phone_20",
+          "pinyin": "wo men ming tian yi qi qu",
+          "expected": [
+            "我们明天一起去"
+          ],
+          "phone_first": "我们明天一起去",
+          "input": "9663664648426947478",
+          "first": "我们明天一起去",
+          "candidates": [
+            "我们明天一起去",
+            "涌动",
+            "永动",
+            "我们",
+            "宗门"
+          ],
+          "top1_match": true
+        }
+      ]
+    }
+  },
+  "same_code_early_evening": {
+    "input": "64648426926742649247486",
+    "candidates": [
+      "明天晚上再说",
+      "明天早上再说",
+      "明天晚上",
+      "明天早上",
+      "明天早起"
+    ],
+    "note": "Both intended sentences have the same complete T9 code. Evening remains first; morning becomes a complete second candidate. This is candidate availability, not automatic disambiguation of both intentions."
+  },
+  "adjacent_controls": {
+    "before": {
+      "method": "Clean temporary local Rime T9 session; no phone touch correction or phone learning state. Exact target matching, not general accuracy.",
+      "corpus_sha256": "71109747719d03533cdb38bfac6fbe9234c9a82cc9b06d58b41a77e73f2ac973",
+      "total": 20,
+      "top1": 15,
+      "results": [
+        {
+          "id": "control_01",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这冻毁了",
+          "candidates": [
+            "这冻毁了",
+            "这更",
+            "协亨",
+            "蟹鸻",
+            "这很"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_02",
+          "pinyin": "zhe ge hen gui le",
+          "expected": [
+            "这个很贵了"
+          ],
+          "input": "9434343648453",
+          "first": "写给冻毁了",
+          "candidates": [
+            "写给冻毁了",
+            "这个梗",
+            "这个歌",
+            "写给",
+            "这给"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_03",
+          "pinyin": "zhen de hen gui le",
+          "expected": [
+            "真的很贵了"
+          ],
+          "input": "94363343648453",
+          "first": "真的很贵了",
+          "candidates": [
+            "真的很贵了",
+            "真的很会",
+            "真的很贵",
+            "真的很",
+            "真的狠"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_04",
+          "pinyin": "zhe ge dong xi hen gui",
+          "expected": [
+            "这个东西很贵"
+          ],
+          "input": "94343366494436484",
+          "first": "这个东西很贵",
+          "candidates": [
+            "这个东西很贵",
+            "这个东西",
+            "洗地的",
+            "这个",
+            "这和"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_05",
+          "pinyin": "tai gui le",
+          "expected": [
+            "太贵了"
+          ],
+          "input": "82448453",
+          "first": "太贵了",
+          "candidates": [
+            "太贵了",
+            "太会了",
+            "太贵",
+            "台规",
+            "太会"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_06",
+          "pinyin": "you dian gui",
+          "expected": [
+            "有点贵"
+          ],
+          "input": "9683426484",
+          "first": "有点贵",
+          "candidates": [
+            "有点贵",
+            "有点灰",
+            "有点",
+            "优点",
+            "邮电"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_07",
+          "pinyin": "ta hen hui shuo hua",
+          "expected": [
+            "他很会说话"
+          ],
+          "input": "824364847486482",
+          "first": "他很会说话",
+          "candidates": [
+            "他很会说话",
+            "它很贵",
+            "他更",
+            "她更",
+            "他很"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_08",
+          "pinyin": "ni hen hui liao tian",
+          "expected": [
+            "你很会聊天"
+          ],
+          "input": "6443648454268426",
+          "first": "你很会聊天",
+          "candidates": [
+            "你很会聊天",
+            "你更",
+            "祢衡",
+            "你和你",
+            "你很"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_09",
+          "pinyin": "hen hui shuo hua",
+          "expected": [
+            "很会说话"
+          ],
+          "input": "4364847486482",
+          "first": "很会说话",
+          "candidates": [
+            "很会说话",
+            "很贵气",
+            "很晦气",
+            "很贵",
+            "很会"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_10",
+          "pinyin": "zhe ge dou hui le",
+          "expected": [
+            "这个都会了"
+          ],
+          "input": "9434336848453",
+          "first": "这个都会了",
+          "candidates": [
+            "这个都会了",
+            "洗地的",
+            "这个",
+            "这和",
+            "折合"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_11",
+          "pinyin": "zhe dou hui le",
+          "expected": [
+            "这都会了"
+          ],
+          "input": "94336848453",
+          "first": "这都贵了",
+          "candidates": [
+            "这都贵了",
+            "这都",
+            "械斗",
+            "血窦",
+            "邪恶木"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_12",
+          "pinyin": "wo dou hui le",
+          "expected": [
+            "我都会了"
+          ],
+          "input": "9636848453",
+          "first": "我都会了",
+          "candidates": [
+            "我都会了",
+            "我都会",
+            "我都",
+            "走动",
+            "我懂"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_13",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "晚上八点见",
+          "candidates": [
+            "晚上八点见",
+            "晚上八点",
+            "早上八点",
+            "晚上吧",
+            "晚上啊"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_14",
+          "pinyin": "ming tian wan shang zai shuo",
+          "expected": [
+            "明天晚上再说"
+          ],
+          "input": "64648426926742649247486",
+          "first": "明天晚上再说",
+          "candidates": [
+            "明天晚上再说",
+            "明天晚上",
+            "明天早上",
+            "明天早起",
+            "明天要"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_15",
+          "pinyin": "ming tian zao shang zai shuo",
+          "expected": [
+            "明天早上再说"
+          ],
+          "input": "64648426926742649247486",
+          "first": "明天晚上再说",
+          "candidates": [
+            "明天晚上再说",
+            "明天晚上",
+            "明天早上",
+            "明天早起",
+            "明天要"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_16",
+          "pinyin": "jin tian zao shang",
+          "expected": [
+            "今天早上"
+          ],
+          "input": "546842692674264",
+          "first": "今天晚上",
+          "candidates": [
+            "今天晚上",
+            "今天早上",
+            "九号晚上",
+            "六号晚上",
+            "今天要上班"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_17",
+          "pinyin": "ming tian wan shang qu",
+          "expected": [
+            "明天晚上去"
+          ],
+          "input": "646484269267426478",
+          "first": "明天晚上去",
+          "candidates": [
+            "明天晚上去",
+            "明天晚上",
+            "明天早上",
+            "明天早起",
+            "明天要"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_18",
+          "pinyin": "shen mo",
+          "expected": [
+            "什么"
+          ],
+          "input": "743666",
+          "first": "什么",
+          "candidates": [
+            "什么",
+            "涉农",
+            "神农",
+            "神魔",
+            "甚浓"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_19",
+          "pinyin": "ni zai gan shen mo",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743666",
+          "first": "你在干什么",
+          "candidates": [
+            "你在干什么",
+            "你再好",
+            "你在",
+            "你再",
+            "拟在"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_20",
+          "pinyin": "zen me la",
+          "expected": [
+            "怎么啦"
+          ],
+          "input": "9366352",
+          "first": "怎么啦",
+          "candidates": [
+            "怎么啦",
+            "怎么拉",
+            "怎么",
+            "夜魔",
+            "液膜"
+          ],
+          "top1_match": true
+        }
+      ]
+    },
+    "after": {
+      "method": "Clean temporary local Rime T9 session; no phone touch correction or phone learning state. Exact target matching, not general accuracy.",
+      "corpus_sha256": "71109747719d03533cdb38bfac6fbe9234c9a82cc9b06d58b41a77e73f2ac973",
+      "total": 20,
+      "top1": 17,
+      "results": [
+        {
+          "id": "control_01",
+          "pinyin": "zhe hen gui le",
+          "expected": [
+            "这很贵了"
+          ],
+          "input": "94343648453",
+          "first": "这很贵了",
+          "candidates": [
+            "这很贵了",
+            "这更",
+            "协亨",
+            "蟹鸻",
+            "这很"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_02",
+          "pinyin": "zhe ge hen gui le",
+          "expected": [
+            "这个很贵了"
+          ],
+          "input": "9434343648453",
+          "first": "这个很贵了",
+          "candidates": [
+            "这个很贵了",
+            "这个梗",
+            "这个歌",
+            "写给",
+            "这给"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_03",
+          "pinyin": "zhen de hen gui le",
+          "expected": [
+            "真的很贵了"
+          ],
+          "input": "94363343648453",
+          "first": "真的很贵了",
+          "candidates": [
+            "真的很贵了",
+            "真的很会",
+            "真的很贵",
+            "真的很",
+            "真的狠"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_04",
+          "pinyin": "zhe ge dong xi hen gui",
+          "expected": [
+            "这个东西很贵"
+          ],
+          "input": "94343366494436484",
+          "first": "这个东西很贵",
+          "candidates": [
+            "这个东西很贵",
+            "这个东西",
+            "洗地的",
+            "这个",
+            "这和"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_05",
+          "pinyin": "tai gui le",
+          "expected": [
+            "太贵了"
+          ],
+          "input": "82448453",
+          "first": "太贵了",
+          "candidates": [
+            "太贵了",
+            "太会了",
+            "太贵",
+            "台规",
+            "太会"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_06",
+          "pinyin": "you dian gui",
+          "expected": [
+            "有点贵"
+          ],
+          "input": "9683426484",
+          "first": "有点贵",
+          "candidates": [
+            "有点贵",
+            "有点灰",
+            "有点",
+            "优点",
+            "邮电"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_07",
+          "pinyin": "ta hen hui shuo hua",
+          "expected": [
+            "他很会说话"
+          ],
+          "input": "824364847486482",
+          "first": "他很会说话",
+          "candidates": [
+            "他很会说话",
+            "它很贵",
+            "他更",
+            "她更",
+            "他很"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_08",
+          "pinyin": "ni hen hui liao tian",
+          "expected": [
+            "你很会聊天"
+          ],
+          "input": "6443648454268426",
+          "first": "你很会聊天",
+          "candidates": [
+            "你很会聊天",
+            "你更",
+            "祢衡",
+            "你和你",
+            "你很"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_09",
+          "pinyin": "hen hui shuo hua",
+          "expected": [
+            "很会说话"
+          ],
+          "input": "4364847486482",
+          "first": "很会说话",
+          "candidates": [
+            "很会说话",
+            "很贵气",
+            "很晦气",
+            "很贵",
+            "很会"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_10",
+          "pinyin": "zhe ge dou hui le",
+          "expected": [
+            "这个都会了"
+          ],
+          "input": "9434336848453",
+          "first": "这个都会了",
+          "candidates": [
+            "这个都会了",
+            "洗地的",
+            "这个",
+            "这和",
+            "折合"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_11",
+          "pinyin": "zhe dou hui le",
+          "expected": [
+            "这都会了"
+          ],
+          "input": "94336848453",
+          "first": "这都贵了",
+          "candidates": [
+            "这都贵了",
+            "这都",
+            "械斗",
+            "血窦",
+            "邪恶木"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_12",
+          "pinyin": "wo dou hui le",
+          "expected": [
+            "我都会了"
+          ],
+          "input": "9636848453",
+          "first": "我都会了",
+          "candidates": [
+            "我都会了",
+            "我都会",
+            "我都",
+            "走动",
+            "我懂"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_13",
+          "pinyin": "wan shang ba dian jian",
+          "expected": [
+            "晚上八点见"
+          ],
+          "input": "926742642234265426",
+          "first": "晚上八点见",
+          "candidates": [
+            "晚上八点见",
+            "晚上八点",
+            "早上八点",
+            "晚上吧",
+            "晚上啊"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_14",
+          "pinyin": "ming tian wan shang zai shuo",
+          "expected": [
+            "明天晚上再说"
+          ],
+          "input": "64648426926742649247486",
+          "first": "明天晚上再说",
+          "candidates": [
+            "明天晚上再说",
+            "明天早上再说",
+            "明天晚上",
+            "明天早上",
+            "明天早起"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_15",
+          "pinyin": "ming tian zao shang zai shuo",
+          "expected": [
+            "明天早上再说"
+          ],
+          "input": "64648426926742649247486",
+          "first": "明天晚上再说",
+          "candidates": [
+            "明天晚上再说",
+            "明天早上再说",
+            "明天晚上",
+            "明天早上",
+            "明天早起"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_16",
+          "pinyin": "jin tian zao shang",
+          "expected": [
+            "今天早上"
+          ],
+          "input": "546842692674264",
+          "first": "今天晚上",
+          "candidates": [
+            "今天晚上",
+            "今天早上",
+            "九号晚上",
+            "六号晚上",
+            "今天要上班"
+          ],
+          "top1_match": false
+        },
+        {
+          "id": "control_17",
+          "pinyin": "ming tian wan shang qu",
+          "expected": [
+            "明天晚上去"
+          ],
+          "input": "646484269267426478",
+          "first": "明天晚上去",
+          "candidates": [
+            "明天晚上去",
+            "明天晚上",
+            "明天早上",
+            "明天早起",
+            "明天要"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_18",
+          "pinyin": "shen mo",
+          "expected": [
+            "什么"
+          ],
+          "input": "743666",
+          "first": "什么",
+          "candidates": [
+            "什么",
+            "涉农",
+            "神农",
+            "神魔",
+            "甚浓"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_19",
+          "pinyin": "ni zai gan shen mo",
+          "expected": [
+            "你在干什么"
+          ],
+          "input": "64924426743666",
+          "first": "你在干什么",
+          "candidates": [
+            "你在干什么",
+            "你再好",
+            "你在",
+            "你再",
+            "拟在"
+          ],
+          "top1_match": true
+        },
+        {
+          "id": "control_20",
+          "pinyin": "zen me la",
+          "expected": [
+            "怎么啦"
+          ],
+          "input": "9366352",
+          "first": "怎么啦",
+          "candidates": [
+            "怎么啦",
+            "怎么拉",
+            "怎么",
+            "夜魔",
+            "液膜"
+          ],
+          "top1_match": true
+        }
+      ]
+    }
+  },
+  "fixed_73_regression": {
+    "corpus_sha256": "2edf6a92b6dd74aa917d438d72caf858a174f9a64f49be1f8cb8dba27817df08",
+    "before": {
+      "everyday": {
+        "total": 60,
+        "top1": 42
+      },
+      "tech": {
+        "total": 10,
+        "top1": 10
+      },
+      "prior_user": {
+        "total": 3,
+        "top1": 2
+      }
+    },
+    "after": {
+      "everyday": {
+        "total": 60,
+        "top1": 42
+      },
+      "tech": {
+        "total": 10,
+        "top1": 10
+      },
+      "prior_user": {
+        "total": 3,
+        "top1": 3
+      }
+    },
+    "changed_first_candidates": [
+      {
+        "id": "prior_user_73",
+        "pinyin": "zhe hen gui le",
+        "before": "这冻毁了",
+        "after": "这很贵了"
+      }
+    ],
+    "previously_correct_cases_regressed": []
+  },
+  "limitations": [
+    "The phone report and a clean local session differ: phone_02 was reported as 这都会了 but locally reproduced as 这冻毁了; phone_18 was correct on the phone but locally returns 我刚下了. No claim of a phone score improvement before an actual phone retest.",
+    "Morning and evening share identical nine-key input."
+  ],
+  "desktop_validation": "All 75 desktop source files remain byte-identical to commit 081f4c1.",
+  "release_tag": "v2026.10.23"
+}

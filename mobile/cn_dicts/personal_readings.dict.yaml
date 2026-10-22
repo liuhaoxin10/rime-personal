@@ -1,0 +1,12 @@
+# Rime dictionary
+# encoding: utf-8
+# 手机个人习惯读音；保留上游词表中的规范读音和原词频。
+---
+name: personal_readings
+version: "2026-10-23"
+sort: by_weight
+...
+
+什么	shen mo	502468
+为什么	wei shen mo	500907
+干什么	gan shen mo	202280

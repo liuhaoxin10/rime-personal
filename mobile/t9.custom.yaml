@@ -1,3 +1,4 @@
-# 手机九键快捷短语；保留紫毫官方九键、词典名和模型设置。
+# 手机九键快捷短语与连续“哈”；保留紫毫官方九键、词典名和模型设置。
 patch:
   custom_phrase/user_dict: personal_phrase_t9
+  engine/filters/@before 2: lua_filter@*mobile_laugh
