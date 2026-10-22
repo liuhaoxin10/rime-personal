@@ -1,0 +1,156 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 人工智能、机器学习、神经网络与大模型常用词
+---
+name: ai_ml
+version: "2026-05-02"
+sort: by_weight
+...
+
+人工智能	ren gong zhi neng	760000
+机器学习	ji qi xue xi	740000
+深度学习	shen du xue xi	740000
+神经网络	shen jing wang luo	720000
+大语言模型	da yu yan mo xing	700000
+自然语言处理	zi ran yu yan chu li	700000
+计算机视觉	ji suan ji shi jue	680000
+强化学习	qiang hua xue xi	680000
+特征工程	te zheng gong cheng	660000
+模型训练	mo xing xun lian	660000
+模型推理	mo xing tui li	660000
+过拟合	guo ni he	640000
+欠拟合	qian ni he	640000
+梯度下降	ti du xia jiang	680000
+反向传播	fan xiang chuan bo	660000
+损失函数	sun shi han shu	660000
+训练集	xun lian ji	650000
+验证集	yan zheng ji	650000
+测试集	ce shi ji	650000
+向量数据库	xiang liang shu ju ku	660000
+知识图谱	zhi shi tu pu	660000
+推荐系统	tui jian xi tong	660000
+信息检索	xin xi jian suo	650000
+监督学习	jian du xue xi	700000
+无监督学习	wu jian du xue xi	700000
+半监督学习	ban jian du xue xi	680000
+自监督学习	zi jian du xue xi	680000
+迁移学习	qian yi xue xi	680000
+联邦学习	lian bang xue xi	670000
+元学习	yuan xue xi	650000
+主动学习	zhu dong xue xi	650000
+多任务学习	duo ren wu xue xi	660000
+表征学习	biao zheng xue xi	660000
+对比学习	dui bi xue xi	670000
+集成学习	ji cheng xue xi	660000
+决策树	jue ce shu	660000
+随机森林	sui ji sen lin	660000
+支持向量机	zhi chi xiang liang ji	660000
+朴素贝叶斯	pu su bei ye si	650000
+聚类	ju lei	660000
+分类	fen lei	660000
+降维	jiang wei	650000
+主成分分析	zhu cheng fen fen xi	650000
+奇异值分解	qi yi zhi fen jie	650000
+词嵌入	ci qian ru	660000
+向量化	xiang liang hua	650000
+独热编码	du re bian ma	640000
+数据清洗	shu ju qing xi	660000
+数据增强	shu ju zeng qiang	660000
+数据标注	shu ju biao zhu	660000
+标注数据	biao zhu shu ju	650000
+交叉验证	jiao cha yan zheng	660000
+混淆矩阵	hun xiao ju zhen	650000
+准确率	zhun que lv	660000
+精确率	jing que lv	650000
+召回率	zhao hui lv	650000
+泛化能力	fan hua neng li	650000
+模型评估	mo xing ping gu	660000
+超参数	chao can shu	660000
+网格搜索	wang ge sou suo	650000
+学习率	xue xi lv	660000
+批大小	pi da xiao	650000
+批归一化	pi gui yi hua	660000
+层归一化	ceng gui yi hua	650000
+正则化	zheng ze hua	660000
+权重衰减	quan zhong shuai jian	650000
+早停	zao ting	640000
+优化器	you hua qi	660000
+随机梯度下降	sui ji ti du xia jiang	660000
+小批量梯度下降	xiao pi liang ti du xia jiang	650000
+感知机	gan zhi ji	650000
+多层感知机	duo ceng gan zhi ji	660000
+前馈神经网络	qian kui shen jing wang luo	650000
+卷积神经网络	juan ji shen jing wang luo	700000
+循环神经网络	xun huan shen jing wang luo	690000
+长短期记忆网络	chang duan qi ji yi wang luo	670000
+门控循环单元	men kong xun huan dan yuan	650000
+生成对抗网络	sheng cheng dui kang wang luo	680000
+图神经网络	tu shen jing wang luo	680000
+残差网络	can cha wang luo	670000
+自编码器	zi bian ma qi	660000
+变分自编码器	bian fen zi bian ma qi	650000
+注意力机制	zhu yi li ji zhi	700000
+自注意力	zi zhu yi li	680000
+多头注意力	duo tou zhu yi li	680000
+变换器	bian huan qi	660000
+编码器	bian ma qi	660000
+解码器	jie ma qi	660000
+编解码器	bian jie ma qi	650000
+激活函数	ji huo han shu	660000
+神经元	shen jing yuan	660000
+隐藏层	yin cang ceng	660000
+输入层	shu ru ceng	650000
+输出层	shu chu ceng	650000
+卷积层	juan ji ceng	650000
+池化层	chi hua ceng	650000
+全连接层	quan lian jie ceng	660000
+嵌入层	qian ru ceng	650000
+归一化层	gui yi hua ceng	650000
+残差连接	can cha lian jie	650000
+跳跃连接	tiao yue lian jie	640000
+位置编码	wei zhi bian ma	660000
+掩码	yan ma	650000
+词元	ci yuan	660000
+分词器	fen ci qi	660000
+语料库	yu liao ku	660000
+预训练	yu xun lian	680000
+微调	wei tiao	680000
+指令微调	zhi ling wei tiao	670000
+提示工程	ti shi gong cheng	670000
+检索增强生成	jian suo zeng qiang sheng cheng	670000
+知识蒸馏	zhi shi zheng liu	660000
+模型压缩	mo xing ya suo	650000
+模型量化	mo xing liang hua	660000
+模型剪枝	mo xing jian zhi	650000
+对齐	dui qi	650000
+人类反馈强化学习	ren lei fan kui qiang hua xue xi	660000
+上下文窗口	shang xia wen chuang kou	660000
+生成式人工智能	sheng cheng shi ren gong zhi neng	700000
+大模型	da mo xing	700000
+基础模型	ji chu mo xing	680000
+多模态	duo mo tai	680000
+智能体	zhi neng ti	680000
+多智能体	duo zhi neng ti	660000
+专家系统	zhuan jia xi tong	650000
+规划算法	gui hua suan fa	650000
+状态空间	zhuang tai kong jian	650000
+搜索算法	sou suo suan fa	660000
+启发式搜索	qi fa shi sou suo	650000
+知识表示	zhi shi biao shi	650000
+自动推理	zi dong tui li	650000
+机器感知	ji qi gan zhi	650000
+语音识别	yu yin shi bie	660000
+语音合成	yu yin he cheng	660000
+图像识别	tu xiang shi bie	660000
+目标检测	mu biao jian ce	660000
+图像分割	tu xiang fen ge	660000
+语义分割	yu yi fen ge	650000
+实例分割	shi li fen ge	650000
+姿态估计	zi tai gu ji	650000
+生成模型	sheng cheng mo xing	660000
+扩散模型	kuo san mo xing	670000
+概率图模型	gai lv tu mo xing	650000
+马尔可夫链	ma er ke fu lian	650000
+隐马尔可夫模型	yin ma er ke fu mo xing	650000
+马尔可夫决策过程	ma er ke fu jue ce guo cheng	650000

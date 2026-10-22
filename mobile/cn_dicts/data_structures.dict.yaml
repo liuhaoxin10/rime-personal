@@ -1,0 +1,85 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 数据结构与算法常用词
+---
+name: data_structures
+version: "2026-05-02"
+sort: by_weight
+...
+
+数据结构	shu ju jie gou	740000
+算法设计	suan fa she ji	720000
+计算复杂度	ji suan fu za du	700000
+时间复杂度	shi jian fu za du	700000
+空间复杂度	kong jian fu za du	700000
+复杂度	fu za du	680000
+递归	di gui	660000
+迭代	die dai	660000
+遍历	bian li	650000
+枚举	mei ju	640000
+回溯	hui su	640000
+贪心	tan xin	640000
+动态规划	dong tai gui hua	700000
+分治	fen zhi	630000
+剪枝	jian zhi	620000
+二分查找	er fen cha zhao	680000
+哈希表	ha xi biao	680000
+散列表	san lie biao	620000
+哈希函数	ha xi han shu	660000
+链表	lian biao	660000
+数组	shu zu	660000
+队列	dui lie	650000
+栈帧	zhan zhen	620000
+调用栈	diao yong zhan	640000
+堆排序	dui pai xu	640000
+二叉树	er cha shu	680000
+平衡树	ping heng shu	640000
+红黑树	hong hei shu	640000
+字典树	zi dian shu	620000
+线段树	xian duan shu	620000
+图论	tu lun	680000
+有向图	you xiang tu	650000
+无向图	wu xiang tu	650000
+最短路	zui duan lu	650000
+最小生成树	zui xiao sheng cheng shu	650000
+拓扑排序	tuo pu pai xu	650000
+网络流	wang luo liu	640000
+单链表	dan lian biao	650000
+双向链表	shuang xiang lian biao	650000
+循环链表	xun huan lian biao	640000
+双端队列	shuang duan dui lie	650000
+优先队列	you xian dui lie	660000
+单调队列	dan diao dui lie	650000
+单调栈	dan diao zhan	650000
+小根堆	xiao gen dui	640000
+大根堆	da gen dui	640000
+并查集	bing cha ji	660000
+树状数组	shu zhuang shu zu	650000
+邻接表	lin jie biao	650000
+邻接矩阵	lin jie ju zhen	650000
+稀疏表	xi shu biao	640000
+跳表	tiao biao	640000
+位图	wei tu	640000
+布隆过滤器	bu long guo lv qi	650000
+哈希映射	ha xi ying she	650000
+有序集合	you xu ji he	640000
+无序集合	wu xu ji he	640000
+图结构	tu jie gou	650000
+完全二叉树	wan quan er cha shu	650000
+满二叉树	man er cha shu	640000
+二叉搜索树	er cha sou suo shu	660000
+平衡二叉树	ping heng er cha shu	650000
+平衡因子	ping heng yin zi	640000
+前序遍历	qian xu bian li	650000
+中序遍历	zhong xu bian li	650000
+后序遍历	hou xu bian li	650000
+层序遍历	ceng xu bian li	650000
+广度优先搜索	guang du you xian sou suo	660000
+深度优先搜索	shen du you xian sou suo	660000
+最短路径	zui duan lu jing	650000
+关键路径	guan jian lu jing	640000
+强连通分量	qiang lian tong fen liang	650000
+双连通分量	shuang lian tong fen liang	640000
+欧拉回路	ou la hui lu	640000
+哈密顿回路	ha mi dun hui lu	640000

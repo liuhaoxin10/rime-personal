@@ -1,70 +1,49 @@
 # 我的 Rime 词库
 
-基于 [雾凇拼音](https://github.com/iDvel/rime-ice) 的个人 Rime 配置，供电脑和支持 Rime 的手机输入法使用。此仓库保存当前本机方案及词库的源码快照，保留上游文件中的作者信息和 [LICENSE](LICENSE)。
+基于[雾凇拼音](https://github.com/iDvel/rime-ice)的个人词库。电脑全拼与紫毫手机九键使用独立配置，只同步词库数据。
 
-## 手机下载与订阅
+| 用途 | 位置 | 配置 |
+| --- | --- | --- |
+| 电脑 26 键全拼 | 仓库根目录 | 保留发布前的电脑配置，只启用 `rime_ice`，保留原置顶与容错设置 |
+| 紫毫手机九键 | [`mobile/`](mobile/) | 仅叠加词库和手机快捷短语，使用紫毫自带的键盘、九键算法和整句模型 |
 
-### 紫毫（当前使用的手机输入法）
+## 紫毫手机订阅
 
-GitHub 仓库填写 `https://github.com/liuhaoxin10/rime-personal`，使用默认分支 `main`，配置目录为根目录。已有订阅可在「方案 → 我的 RIME 方案 → 立即更新」拉取新配置，再回到键盘切换九键或 26 键。更新后如仍显示旧候选，切换到其他键盘再切回来。
+- 仓库：`https://github.com/liuhaoxin10/rime-personal`
+- 分支：`main`
+- **配置目录：`mobile`**
 
-本仓库已启用 `rime_ice` 全拼及 `t9` 九键，九键使用[紫毫官方公开的配置](https://hareime.com/rime-ice)，并挂载相同的个人词库。紫毫点按九键会输入数字编码，因此只切换成九键外观、却未启用 `t9` 方案时，无法正常进行中文九键输入。九键的中英混输依赖附带的 `melt_eng_t9.schema.yaml`。
+此前订阅根目录的手机，请将配置目录改为 `mobile`，更新后部署并启用。手机不再导入电脑的 `default.custom.yaml`、方案文件、置顶规则或键盘设置。
 
-### ZIP 导入
+[最新手机词库 ZIP](https://github.com/liuhaoxin10/rime-personal/releases/latest/download/rime-personal.zip)同样只包含手机词库覆盖层，依赖紫毫先部署其内置雾凇资源。不是独立的完整 Rime 方案。参见[手机目录说明](mobile/README.md)、[紫毫导入说明](https://hareime.com/guide)。
 
-支持从网络下载 ZIP 方案的输入法，可以填写这个固定地址：
+## 词库内容
 
-```text
-https://github.com/liuhaoxin10/rime-personal/releases/latest/download/rime-personal.zip
-```
+组合词库为 `custom_rime_ice`，包含当前雾凇中文词表及四套个人专题词库：编程与计算机 93 条、数据结构与算法 75 条、AI 与机器学习 146 条、数学 131 条，共 445 条。
 
-- 仓输入法：下载 ZIP 后，通过「输入方案设置 → ＋ → 导入方案」导入，也可以通过系统分享交给仓。参见[官方说明](https://ihsiao.com/apps/hamster/docs/guides/input_schema/)。
-- 元书输入法：在「输入方案 → 菜单 → 下载方案 → ＋」中填写上面的下载地址，文件名填写 `rime-personal.zip`，保存并下载，再切换到该方案目录。参见[官方说明](https://ihsiao.com/apps/hamster/v3/docs/guides/schema/)。
-- 其他 Rime 输入法：使用应用提供的 ZIP 导入、网络下载或 Git 仓库功能。Git 仓库地址为 `https://github.com/liuhaoxin10/rime-personal`，分支为 `main`。导入后重新部署，并启用「雾凇拼音」。
+电脑与手机的词库条目一致，个人学习记录分别由各设备保存。公开仓库不保存 `*.userdb`、同步数据、备份、编译结果或本机安装信息。
 
-Release 中的 ZIP 不含外层目录，解压后直接得到 Rime 配置文件。GitHub 的「Download ZIP」会多包一层目录，部分手机输入法不能直接导入。
+手机快捷短语保存在 `mobile/personal_phrase_t9.txt`，目前将 `444` 优先设为「哈哈哈」。它不修改电脑候选或任何其他整句的排序。
 
-这个地址提供已发布的最新版本；是否支持自动检查更新，取决于手机输入法。修改本机文件后，还需要提交到 GitHub 并发布新的 Release，手机才能取得更新。
+## 九键整句准确率的已知限制
 
-## 当前配置
+完整输入「这很贵了」时，本机 Rime 九键和紫毫内置方案对照均出现不合适的整句候选。仅去除模糊规则、关闭补全或接入八股文通用模型，均未稳定修复。因此本仓库不捆绑实验模型或未经验证的九键调参，也不承诺词库覆盖层可以修复客户端全部整句问题。可用「选拼音」锁定音节或分段选词。
 
-默认方案列表包含雾凇全拼和中文九键，全拼仍放在首位；两个方案的主词典均为 `custom_rime_ice`，包含原雾凇基础词库和四套个人专题词库：
+## 更新与打包
 
-| 词库 | 词条数 |
-| --- | ---: |
-| 编程与计算机 | 93 |
-| 数据结构与算法 | 75 |
-| AI 与机器学习 | 146 |
-| 数学 | 131 |
-| 合计 | 445 |
-
-同时保留英文、中英混输、部件拆字、Emoji、Lua 功能、自定义短语，以及「公式」置顶和 `dain → dian` 的容错配置。需要支持 Lua 与 OpenCC 的 Rime 客户端。
-
-个人词库补丁分别保存在 `rime_ice.custom.yaml`（全拼）和 `t9.custom.yaml`（九键）。仓库中的双拼文件保留原配置；如果要使用双拼，需要另行启用方案，并将其 `translator/dictionary` 设置为 `custom_rime_ice`。
-
-发布前已在独立临时目录完成编译及真实按键测试：全拼 `nihao` →「你好」、`gongshi` →「公式」；九键 `42633` →「好的」、`64426` →「你好」、`73646649446364` →「人工智能」。手机端仍需更新后部署，尚未做手机实机验证。
-
-## 本机更新和打包
-
-词库源码位于 `cn_dicts/`，组合词库入口是 `custom_rime_ice.dict.yaml`，个性化设置保存在 `rime_ice.custom.yaml`、`t9.custom.yaml` 和 `default.custom.yaml`。
-
-在仓库目录运行以下命令生成手机导入包：
+修改根目录的词库后，以下命令只同步词库数据到手机目录，再生成手机导入包：
 
 ```sh
-python3 tools/package.py
+python3 tools/sync_mobile_dictionary.py
+python3 tools/package.py --profile mobile
 ```
 
-输出为 `dist/rime-personal.zip`。打包脚本只收集可移植的 Rime 源文件，不包含学习记录、同步目录、编译文件、本机安装信息和桌面前端设置。
-
-日常修改后的发布步骤：
+手机包输出为 `dist/rime-personal.zip`。电脑完整源码可另外打包：
 
 ```sh
-git add cn_dicts custom_rime_ice.dict.yaml rime_ice.custom.yaml t9.custom.yaml default.custom.yaml
-git commit -m "Update personal Rime dictionaries"
-git push origin main
-python3 tools/package.py
-# 每次发布使用新的版本号，例如 v2026.10.23。
-gh release create v2026.10.23 dist/rime-personal.zip --target main --title v2026.10.23 --notes "更新个人词库"
+python3 tools/package.py --profile desktop --output dist/rime-desktop.zip
 ```
 
-仓库不保存 `*.userdb`、`sync/`、`backups/`、`build/`、`installation.yaml` 或 `user.yaml`，因此下载方案不会获得本机输入历史或学习记录。
+更新手机配置只编辑 `mobile/`；更新电脑配置只编辑根目录。同步脚本不复制 `.schema.yaml` 或 `.custom.yaml`。提交并推送后，GitHub 目录订阅才能获取新内容；ZIP 用户还需要发布新 Release。
+
+保留上游作者署名与 [GPLv3 LICENSE](LICENSE)。

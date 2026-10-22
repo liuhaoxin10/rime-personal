@@ -1,0 +1,141 @@
+# Rime dictionary
+# encoding: utf-8
+#
+# 数学常用词
+---
+name: math
+version: "2026-05-02"
+sort: by_weight
+...
+
+数学	shu xue	780000
+集合	ji he	700000
+子集	zi ji	660000
+全集	quan ji	640000
+空集	kong ji	640000
+交集	jiao ji	650000
+并集	bing ji	650000
+补集	bu ji	640000
+映射	ying she	660000
+函数	han shu	760000
+公式	gong shi	760000
+定义域	ding yi yu	660000
+值域	zhi yu	660000
+反函数	fan han shu	650000
+复合函数	fu he han shu	650000
+初等函数	chu deng han shu	640000
+单调性	dan diao xing	650000
+奇偶性	ji ou xing	650000
+周期性	zhou qi xing	640000
+极限	ji xian	700000
+连续性	lian xu xing	660000
+求导	qiu dao	700000
+导数	dao shu	700000
+偏导数	pian dao shu	660000
+全导数	quan dao shu	640000
+微分	wei fen	680000
+积分	ji fen	700000
+定积分	ding ji fen	660000
+不定积分	bu ding ji fen	660000
+重积分	chong ji fen	650000
+曲线积分	qu xian ji fen	640000
+曲面积分	qu mian ji fen	640000
+级数	ji shu	660000
+数列	shu lie	660000
+收敛	shou lian	660000
+发散	fa san	650000
+幂级数	mi ji shu	640000
+泰勒展开	tai le zhan kai	650000
+傅里叶变换	fu li ye bian huan	650000
+拉普拉斯变换	la pu la si bian huan	640000
+微分方程	wei fen fang cheng	660000
+偏微分方程	pian wei fen fang cheng	650000
+常微分方程	chang wei fen fang cheng	650000
+线性代数	xian xing dai shu	700000
+矩阵	ju zhen	700000
+行列式	hang lie shi	660000
+向量	xiang liang	680000
+标量	biao liang	640000
+张量	zhang liang	640000
+向量空间	xiang liang kong jian	660000
+线性空间	xian xing kong jian	650000
+线性变换	xian xing bian huan	650000
+特征值	te zheng zhi	660000
+特征向量	te zheng xiang liang	660000
+特征多项式	te zheng duo xiang shi	640000
+矩阵的秩	ju zhen de zhi	640000
+矩阵的迹	ju zhen de ji	620000
+逆矩阵	ni ju zhen	650000
+正交	zheng jiao	650000
+正交矩阵	zheng jiao ju zhen	650000
+单位矩阵	dan wei ju zhen	650000
+对角矩阵	dui jiao ju zhen	650000
+对称矩阵	dui chen ju zhen	650000
+稀疏矩阵	xi shu ju zhen	640000
+概率	gai lv	700000
+概率论	gai lv lun	700000
+随机变量	sui ji bian liang	680000
+分布函数	fen bu han shu	650000
+概率密度	gai lv mi du	650000
+期望	qi wang	660000
+方差	fang cha	660000
+标准差	biao zhun cha	660000
+协方差	xie fang cha	650000
+相关系数	xiang guan xi shu	650000
+条件概率	tiao jian gai lv	650000
+贝叶斯	bei ye si	660000
+贝叶斯公式	bei ye si gong shi	650000
+大数定律	da shu ding lv	640000
+中心极限定理	zhong xin ji xian ding li	650000
+假设检验	jia she jian yan	650000
+置信区间	zhi xin qu jian	650000
+回归分析	hui gui fen xi	650000
+线性回归	xian xing hui gui	660000
+逻辑回归	luo ji hui gui	660000
+最小二乘	zui xiao er cheng	650000
+最优化	zui you hua	660000
+凸优化	tu you hua	650000
+目标函数	mu biao han shu	650000
+约束条件	yue shu tiao jian	640000
+拉格朗日乘子	la ge lang ri cheng zi	640000
+梯度	ti du	660000
+散度	san du	640000
+旋度	xuan du	640000
+雅可比矩阵	ya ke bi ju zhen	640000
+海森矩阵	hai sen ju zhen	640000
+欧几里得	ou ji li de	640000
+欧几里得算法	ou ji li de suan fa	650000
+离散数学	li san shu xue	680000
+数理逻辑	shu li luo ji	650000
+命题逻辑	ming ti luo ji	640000
+谓词逻辑	wei ci luo ji	640000
+组合数学	zu he shu xue	650000
+排列	pai lie	650000
+组合	zu he	650000
+递推	di tui	640000
+归纳法	gui na fa	640000
+反证法	fan zheng fa	640000
+同余	tong yu	640000
+素数	su shu	650000
+质数	zhi shu	650000
+因数	yin shu	640000
+倍数	bei shu	640000
+最大公约数	zui da gong yue shu	650000
+最小公倍数	zui xiao gong bei shu	650000
+模运算	mo yun suan	650000
+复数	fu shu	660000
+实数	shi shu	660000
+有理数	you li shu	650000
+无理数	wu li shu	650000
+整数	zheng shu	660000
+自然数	zi ran shu	650000
+多项式	duo xiang shi	660000
+二项式	er xiang shi	640000
+二项式定理	er xiang shi ding li	640000
+不等式	bu deng shi	660000
+柯西不等式	ke xi bu deng shi	640000
+极坐标	ji zuo biao	640000
+直角坐标	zhi jiao zuo biao	640000
+坐标系	zuo biao xi	650000
+解析几何	jie xi ji he	650000
+微积分	wei ji fen	700000

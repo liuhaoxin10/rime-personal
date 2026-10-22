@@ -1,0 +1,7 @@
+# Rime table
+# coding: utf-8
+#@/db_name	personal_phrase_t9.txt
+#@/db_type	tabledb
+# 手机九键快捷短语，不修改电脑的短语或词频。
+
+哈哈哈	444	100

@@ -1,5 +1,3 @@
-# 手机适配：同步紫毫官方九键配置，保留上游作者与许可。
-# 来源：https://hareime.com/rime-ice （2026-10-22）
 # Rime schema
 # encoding: utf-8
 
@@ -29,11 +27,11 @@ schema:
   description: |
     中文九键 for 仓输入法 & 元书输入法
   dependencies:
-    - melt_eng     # 英文输入，作为次翻译器挂载到拼音方案
-    - melt_eng_t9  # 同一份英文词典的九宫格数字索引（melt_eng_t9.schema.yaml）
+    - melt_eng # 英文输入，作为次翻译器挂载到拼音方案
 
 engine:
   processors:
+    - t9_processor
     - ascii_composer
     - recognizer
     - key_binder
@@ -53,9 +51,7 @@ engine:
     - script_translator
     - lua_translator@*date_translator # 时间、日期、星期
     - table_translator@custom_phrase # 自定义短语 custom_phrase_t9.txt
-    - lua_translator@*uuid          # UUID，与 26 键一致：划出 uuid 即生成一个
-    - table_translator@melt_eng         # 英文输入：按数字键打（中英混输）
-    - table_translator@melt_eng_letters # 英文输入：滑动划出字母时按字母打
+    # - table_translator@melt_eng     # 英文输入
     - lua_translator@*calc_translator    # 计算器
     - lua_translator@*force_gc           # 暴力 GC
   filters:
@@ -88,35 +84,6 @@ custom_phrase:
   enable_completion: false
   enable_sentence: false
   initial_quality: 99
-
-# 英文次翻译器：与 26 键中文下的中英混输保持同一条规则——只给拼全的词，
-# 不做前缀补全，否则每串数字都会带出一长串英文候选。专用英文模式（melt_eng
-# 方案本身）有自己的规则，在 melt_eng.custom.yaml 里补全是开着的。
-# 整块写全，不依赖 __include 的合并：这一节覆盖 rime_ice.schema.yaml 里的同名节点，
-# 只写 prism 的话 dictionary 有可能一起被顶掉，英文就整个不出候选了。
-melt_eng:
-  dictionary: melt_eng     # 与 26 键英文模式同一份词库
-  prism: melt_eng_t9       # 拼写索引换成数字版，数字串也能打出英文词
-  enable_sentence: false
-  enable_user_dict: false
-  enable_completion: false # 与 26 键中文下的中英混输一致：只给拼全的词
-  initial_quality: 1.1
-  comment_format:
-    - xform/.*//
-
-# 同一份英文词典的字母索引。九宫格可以滑动划出确切的字母（Claude），那串字母
-# 对不上数字索引，所以字母和数字两条路各挂一个翻译器；两份索引本来就都在
-# （melt_eng.prism.bin 3.2 MB 给英文模式用，melt_eng_t9.prism.bin 804 KB 给数字用），
-# 不增加存储。
-melt_eng_letters:
-  dictionary: melt_eng
-  prism: melt_eng
-  enable_sentence: false
-  enable_user_dict: false
-  enable_completion: false
-  initial_quality: 1.1
-  comment_format:
-    - xform/.*//
 
 # 九宫格 1 键上的符号序列
 punctuator:
